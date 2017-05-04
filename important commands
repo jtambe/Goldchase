@@ -1,0 +1,21 @@
+cd /dev/shm;
+
+cd /dev/mqueue;
+
+ps waux | grep test;
+
+rm sem.semSHM mspSHM;
+
+kill -9 9898 -- killing orphan forcefully
+kill 9898 -- normal killing of orphan
+
+tput init; tput reset; stty sane
+
+
+rm /dev/shm/mapSHM /dev/shm/sem.semSHM  /dev/mqueue/one  /dev/mqueue/two  /dev/mqueue/three  /dev/mqueue/four  /dev/mqueue/five
+
+
+ls /dev/shm /dev/mqueue
+
+
+killall -9 test_prg

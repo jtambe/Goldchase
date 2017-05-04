@@ -1,0 +1,706 @@
+execve("./test_prg", ["./test_prg"], [/* 65 vars */]) = 0
+brk(NULL)                               = 0x13c1000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdbb9125000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=97820, ...}) = 0
+mmap(NULL, 97820, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fdbb910d000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libpanel.so.5", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\23\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14400, ...}) = 0
+mmap(NULL, 2109536, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fdbb8cfe000
+mprotect(0x7fdbb8d01000, 2093056, PROT_NONE) = 0
+mmap(0x7fdbb8f00000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fdbb8f00000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libncurses.so.5", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`^\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=138112, ...}) = 0
+mmap(NULL, 2233544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fdbb8adc000
+mprotect(0x7fdbb8afd000, 2093056, PROT_NONE) = 0
+mmap(0x7fdbb8cfc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x20000) = 0x7fdbb8cfc000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\310\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=167240, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdbb910c000
+mmap(NULL, 2264256, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fdbb88b3000
+mprotect(0x7fdbb88d8000, 2093056, PROT_NONE) = 0
+mmap(0x7fdbb8ad7000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x24000) = 0x7fdbb8ad7000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=138696, ...}) = 0
+mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fdbb8696000
+mprotect(0x7fdbb86ae000, 2093056, PROT_NONE) = 0
+mmap(0x7fdbb88ad000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fdbb88ad000
+mmap(0x7fdbb88af000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fdbb88af000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0!\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=31712, ...}) = 0
+mmap(NULL, 2128832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fdbb848e000
+mprotect(0x7fdbb8495000, 2093056, PROT_NONE) = 0
+mmap(0x7fdbb8694000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7fdbb8694000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \235\10\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1566440, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdbb910b000
+mmap(NULL, 3675136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fdbb810c000
+mprotect(0x7fdbb827e000, 2097152, PROT_NONE) = 0
+mmap(0x7fdbb847e000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x172000) = 0x7fdbb847e000
+mmap(0x7fdbb848a000, 13312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fdbb848a000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p*\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=89696, ...}) = 0
+mmap(NULL, 2185488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fdbb7ef6000
+mprotect(0x7fdbb7f0c000, 2093056, PROT_NONE) = 0
+mmap(0x7fdbb810b000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7fdbb810b000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1864888, ...}) = 0
+mmap(NULL, 3967392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fdbb7b2d000
+mprotect(0x7fdbb7cec000, 2097152, PROT_NONE) = 0
+mmap(0x7fdbb7eec000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bf000) = 0x7fdbb7eec000
+mmap(0x7fdbb7ef2000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fdbb7ef2000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14608, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdbb910a000
+mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fdbb7929000
+mprotect(0x7fdbb792c000, 2093056, PROT_NONE) = 0
+mmap(0x7fdbb7b2b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fdbb7b2b000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1088952, ...}) = 0
+mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fdbb7620000
+mprotect(0x7fdbb7728000, 2093056, PROT_NONE) = 0
+mmap(0x7fdbb7927000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x107000) = 0x7fdbb7927000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdbb9109000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdbb9108000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdbb9106000
+arch_prctl(ARCH_SET_FS, 0x7fdbb9106740) = 0
+mprotect(0x7fdbb7eec000, 16384, PROT_READ) = 0
+mprotect(0x7fdbb7927000, 4096, PROT_READ) = 0
+mprotect(0x7fdbb7b2b000, 4096, PROT_READ) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdbb9105000
+mprotect(0x7fdbb847e000, 40960, PROT_READ) = 0
+mprotect(0x7fdbb88ad000, 4096, PROT_READ) = 0
+mprotect(0x7fdbb8694000, 4096, PROT_READ) = 0
+mprotect(0x7fdbb8ad7000, 16384, PROT_READ) = 0
+mprotect(0x7fdbb8cfc000, 4096, PROT_READ) = 0
+mprotect(0x7fdbb8f00000, 4096, PROT_READ) = 0
+mprotect(0x607000, 4096, PROT_READ)     = 0
+mprotect(0x7fdbb9127000, 4096, PROT_READ) = 0
+munmap(0x7fdbb910d000, 97820)           = 0
+set_tid_address(0x7fdbb9106a10)         = 46234
+set_robust_list(0x7fdbb9106a20, 24)     = 0
+rt_sigaction(SIGRTMIN, {0x7fdbb869bb50, [], SA_RESTORER|SA_SIGINFO, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7fdbb869bbe0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(NULL)                               = 0x13c1000
+brk(0x13f3000)                          = 0x13f3000
+futex(0x7fdbb848b1ac, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7fdbb848b1b8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+rt_sigaction(SIGUSR1, {0x403295, [], SA_RESTORER, 0x7fdbb86a7390}, NULL, 8) = 0
+statfs("/dev/shm/", {f_type="TMPFS_MAGIC", f_bsize=4096, f_blocks=253811, f_bfree=249938, f_bavail=249938, f_files=253811, f_ffree=253783, f_fsid={0, 0}, f_namelen=255, f_frsize=4096, f_flags=38}) = 0
+futex(0x7fdbb88b2310, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+lstat("/dev/shm/m8tjlT", 0x7ffe47f53250) = -1 ENOENT (No such file or directory)
+open("/dev/shm/m8tjlT", O_RDWR|O_CREAT|O_EXCL, 0666) = 3
+write(3, "\1\0\0\0\0\0\0\0\200\0\0\0\333\177\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 32) = 32
+mmap(NULL, 32, PROT_READ|PROT_WRITE, MAP_SHARED, 3, 0) = 0x7fdbb9124000
+link("/dev/shm/m8tjlT", "/dev/shm/sem.semSHM") = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=32, ...}) = 0
+unlink("/dev/shm/m8tjlT")               = 0
+close(3)                                = 0
+open("mymap.txt", O_RDONLY)             = 3
+read(3, "6\n********** *******************"..., 8191) = 2108
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+open("/dev/shm/mapSHM", O_RDWR|O_CREAT|O_NOFOLLOW|O_CLOEXEC, 0600) = 3
+ftruncate(3, 2112)                      = 0
+mmap(NULL, 2112, PROT_READ|PROT_WRITE, MAP_SHARED, 3, 0) = 0x7fdbb9123000
+write(99, "Here1\0", 6)                 = -1 EBADF (Bad file descriptor)
+dup(2)                                  = 4
+fcntl(4, F_GETFL)                       = 0x8001 (flags O_WRONLY|O_LARGEFILE)
+close(4)                                = 0
+write(2, "before initializeplayer: Bad fil"..., 45before initializeplayer: Bad file descriptor
+) = 45
+write(2, "here: Invalid argument\n", 23here: Invalid argument
+) = 23
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+stat("/home/jtambe/.terminfo", 0x13d2cc0) = -1 ENOENT (No such file or directory)
+stat("/etc/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/lib/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+access("/etc/terminfo/x/xterm-256color", R_OK) = -1 ENOENT (No such file or directory)
+access("/lib/terminfo/x/xterm-256color", R_OK) = 0
+open("/lib/terminfo/x/xterm-256color", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=3417, ...}) = 0
+read(4, "\32\1%\0&\0\17\0\235\1\262\5xterm-256color|xterm"..., 4096) = 3417
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TIOCGWINSZ, {ws_row=32, ws_col=108, ws_xpixel=0, ws_ypixel=0}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TIOCGWINSZ, {ws_row=32, ws_col=108, ws_xpixel=0, ws_ypixel=0}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, SNDCTL_TMR_STOP or TCSETSW, {B38400 opost isig -icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig -icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig -icanon echo ...}) = 0
+ioctl(1, SNDCTL_TMR_STOP or TCSETSW, {B38400 opost isig -icanon -echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig -icanon -echo ...}) = 0
+rt_sigaction(SIGTSTP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGINT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, {0x7fdbb8af0870, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTERM, {0x7fdbb8af0870, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGWINCH, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGWINCH, {0x7fdbb8af0860, [], SA_RESTORER, 0x7fdbb86a7390}, NULL, 8) = 0
+ioctl(1, TCGETS, {B38400 opost isig -icanon -echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig -icanon -echo ...}) = 0
+ioctl(1, SNDCTL_TMR_STOP or TCSETSW, {B38400 opost isig -icanon -echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig -icanon -echo ...}) = 0
+write(1, "\33[?1049h\33[1;32r\33(B\33[m\33[4l\33[?7h\33["..., 44) = 44
+write(1, "\33[?1h\33=", 7)              = 7
+brk(0x1414000)                          = 0x1414000
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+write(1, "\33[39;49m\33[37m\33[40m\33[H\33[2J\33(0\33[0m"..., 3875) = 3875
+write(1, "xnnnnnnnnnu\33(B\33[39;49m\33[37m\33[40m"..., 3875) = 3875
+write(1, "\33[37m\33[40mmqqqqqqqqqqqqqqqqqqqqq"..., 164) = 164
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+write(1, "\33[15;42H\33(0\33[0m\33[39;49m\33[37m\33[40"..., 466) = 466
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "Q", 1)                         = 1
+read(0, " ", 1)                         = 1
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+write(1, "\33[15;42H\33(0\33[0m\33[39;49m\33[37m\33[40"..., 752) = 752
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "Q", 1)                         = 1
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "Q", 1)                         = 1
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "Q", 1)                         = 1
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "\33", 1)                       = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "O", 1)                         = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "C", 1)                         = 1
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "\33", 1)                       = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "O", 1)                         = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "C", 1)                         = 1
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "\33", 1)                       = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "O", 1)                         = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "A", 1)                         = 1
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "\33", 1)                       = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "O", 1)                         = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "A", 1)                         = 1
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "\33", 1)                       = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "O", 1)                         = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "A", 1)                         = 1
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "\33", 1)                       = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "O", 1)                         = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "A", 1)                         = 1
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "\33", 1)                       = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "O", 1)                         = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "A", 1)                         = 1
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "\33", 1)                       = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "O", 1)                         = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "A", 1)                         = 1
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "\33", 1)                       = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "O", 1)                         = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "B", 1)                         = 1
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "\33", 1)                       = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "O", 1)                         = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "A", 1)                         = 1
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "\33", 1)                       = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "O", 1)                         = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "A", 1)                         = 1
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "\33", 1)                       = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "O", 1)                         = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "A", 1)                         = 1
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "\33", 1)                       = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "O", 1)                         = 1
+poll([{fd=0, events=POLLIN}], 1, 1000)  = 1 ([{fd=0, revents=POLLIN}])
+read(0, "A", 1)                         = 1
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+poll([{fd=0, events=POLLIN}], 1, 0)     = 0 (Timeout)
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, 0x7ffe47f5333f, 1)              = -1 EIO (Input/output error)
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, "", 1)                          = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+poll([{fd=0, events=POLLIN}], 1, 0)     = 1 ([{fd=0, revents=POLLIN|POLLERR|POLLHUP}])
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7fdbb8af0960, [], SA_RESTORER|SA_RESTART, 0x7fdbb86a7390}, NULL, 8) = 0
+read(0, strace: Process 46234 detached
+ <detached ...>

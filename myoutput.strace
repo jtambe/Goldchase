@@ -1,0 +1,1696 @@
+execve("./mytester", ["./mytester"], [/* 61 vars */]) = 0
+brk(NULL)                               = 0xe15000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0c9429000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=97820, ...}) = 0
+mmap(NULL, 97820, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc0c9411000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \235\10\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1566440, ...}) = 0
+mmap(NULL, 3675136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc0c8e84000
+mprotect(0x7fc0c8ff6000, 2097152, PROT_NONE) = 0
+mmap(0x7fc0c91f6000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x172000) = 0x7fc0c91f6000
+mmap(0x7fc0c9202000, 13312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc0c9202000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p*\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=89696, ...}) = 0
+mmap(NULL, 2185488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc0c8c6e000
+mprotect(0x7fc0c8c84000, 2093056, PROT_NONE) = 0
+mmap(0x7fc0c8e83000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7fc0c8e83000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1864888, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0c9410000
+mmap(NULL, 3967488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc0c88a5000
+mprotect(0x7fc0c8a65000, 2093056, PROT_NONE) = 0
+mmap(0x7fc0c8c64000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bf000) = 0x7fc0c8c64000
+mmap(0x7fc0c8c6a000, 14848, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc0c8c6a000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1088952, ...}) = 0
+mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc0c859c000
+mprotect(0x7fc0c86a4000, 2093056, PROT_NONE) = 0
+mmap(0x7fc0c88a3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x107000) = 0x7fc0c88a3000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0c940f000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0c940d000
+arch_prctl(ARCH_SET_FS, 0x7fc0c940d740) = 0
+mprotect(0x7fc0c8c64000, 16384, PROT_READ) = 0
+mprotect(0x7fc0c88a3000, 4096, PROT_READ) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0c940c000
+mprotect(0x7fc0c91f6000, 40960, PROT_READ) = 0
+mprotect(0x605000, 4096, PROT_READ)     = 0
+mprotect(0x7fc0c942b000, 4096, PROT_READ) = 0
+munmap(0x7fc0c9411000, 97820)           = 0
+brk(NULL)                               = 0xe15000
+brk(0xe47000)                           = 0xe47000
+mknod("mymap.txt", S_IFIFO|0600)        = 0
+write(2, "currently here at 1", 19currently here at 1)     = 19
+write(2, "\n", 1
+)                       = 1
+pipe([3, 4])                            = 0
+pipe([5, 6])                            = 0
+write(2, "currently before 1st fork", 25currently before 1st fork) = 25
+write(2, "\n", 1
+)                       = 1
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc0c940da10) = 53172
+strace: Process 53172 attached
+[pid 53169] close(4)                    = 0
+[pid 53169] close(5)                    = 0
+[pid 53169] dup2(6, 21)                 = 21
+[pid 53172] close(3 <unfinished ...>
+[pid 53169] close(6)                    = 0
+[pid 53169] dup2(3, 20)                 = 20
+[pid 53169] close(3)                    = 0
+[pid 53169] write(401, "parent after first fork", 23 <unfinished ...>
+[pid 53172] <... close resumed> )       = 0
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] open("mymap.txt", O_WRONLY <unfinished ...>
+[pid 53172] close(6)                    = 0
+[pid 53172] dup2(5, 0)                  = 0
+[pid 53172] close(5)                    = 0
+[pid 53172] dup2(4, 1)                  = 1
+[pid 53172] close(4)                    = 0
+[pid 53172] execve("./test_prg", [""], [/* 61 vars */]) = 0
+[pid 53172] brk(NULL)                   = 0x815000
+[pid 53172] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53172] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc9c3845000
+[pid 53172] access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid 53172] open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+[pid 53172] fstat(3, {st_mode=S_IFREG|0644, st_size=97820, ...}) = 0
+[pid 53172] mmap(NULL, 97820, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc9c382d000
+[pid 53172] close(3)                    = 0
+[pid 53172] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53172] open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+[pid 53172] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360`\0\0\0\0\0\0"..., 832) = 832
+[pid 53172] fstat(3, {st_mode=S_IFREG|0755, st_size=138744, ...}) = 0
+[pid 53172] mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc9c3405000
+[pid 53172] mprotect(0x7fc9c341d000, 2093056, PROT_NONE) = 0
+[pid 53172] mmap(0x7fc9c361c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fc9c361c000
+[pid 53172] mmap(0x7fc9c361e000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc9c361e000
+[pid 53172] close(3)                    = 0
+[pid 53172] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53172] open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+[pid 53172] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0!\0\0\0\0\0\0"..., 832) = 832
+[pid 53172] fstat(3, {st_mode=S_IFREG|0644, st_size=31712, ...}) = 0
+[pid 53172] mmap(NULL, 2128832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc9c31fd000
+[pid 53172] mprotect(0x7fc9c3204000, 2093056, PROT_NONE) = 0
+[pid 53172] mmap(0x7fc9c3403000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7fc9c3403000
+[pid 53172] close(3)                    = 0
+[pid 53172] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53172] open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+[pid 53172] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \235\10\0\0\0\0\0"..., 832) = 832
+[pid 53172] fstat(3, {st_mode=S_IFREG|0644, st_size=1566440, ...}) = 0
+[pid 53172] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc9c382c000
+[pid 53172] mmap(NULL, 3675136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc9c2e7b000
+[pid 53172] mprotect(0x7fc9c2fed000, 2097152, PROT_NONE) = 0
+[pid 53172] mmap(0x7fc9c31ed000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x172000) = 0x7fc9c31ed000
+[pid 53172] mmap(0x7fc9c31f9000, 13312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc9c31f9000
+[pid 53172] close(3)                    = 0
+[pid 53172] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53172] open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+[pid 53172] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p*\0\0\0\0\0\0"..., 832) = 832
+[pid 53172] fstat(3, {st_mode=S_IFREG|0644, st_size=89696, ...}) = 0
+[pid 53172] mmap(NULL, 2185488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc9c2c65000
+[pid 53172] mprotect(0x7fc9c2c7b000, 2093056, PROT_NONE) = 0
+[pid 53172] mmap(0x7fc9c2e7a000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7fc9c2e7a000
+[pid 53172] close(3)                    = 0
+[pid 53172] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53172] open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+[pid 53172] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+[pid 53172] fstat(3, {st_mode=S_IFREG|0755, st_size=1864888, ...}) = 0
+[pid 53172] mmap(NULL, 3967488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc9c289c000
+[pid 53172] mprotect(0x7fc9c2a5c000, 2093056, PROT_NONE) = 0
+[pid 53172] mmap(0x7fc9c2c5b000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bf000) = 0x7fc9c2c5b000
+[pid 53172] mmap(0x7fc9c2c61000, 14848, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc9c2c61000
+[pid 53172] close(3)                    = 0
+[pid 53172] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53172] open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+[pid 53172] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0"..., 832) = 832
+[pid 53172] fstat(3, {st_mode=S_IFREG|0644, st_size=1088952, ...}) = 0
+[pid 53172] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc9c382b000
+[pid 53172] mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc9c2593000
+[pid 53172] mprotect(0x7fc9c269b000, 2093056, PROT_NONE) = 0
+[pid 53172] mmap(0x7fc9c289a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x107000) = 0x7fc9c289a000
+[pid 53172] close(3)                    = 0
+[pid 53172] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc9c382a000
+[pid 53172] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc9c3828000
+[pid 53172] arch_prctl(ARCH_SET_FS, 0x7fc9c3828740) = 0
+[pid 53172] mprotect(0x7fc9c2c5b000, 16384, PROT_READ) = 0
+[pid 53172] mprotect(0x7fc9c289a000, 4096, PROT_READ) = 0
+[pid 53172] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc9c3827000
+[pid 53172] mprotect(0x7fc9c31ed000, 40960, PROT_READ) = 0
+[pid 53172] mprotect(0x7fc9c361c000, 4096, PROT_READ) = 0
+[pid 53172] mprotect(0x7fc9c3403000, 4096, PROT_READ) = 0
+[pid 53172] mprotect(0x603000, 4096, PROT_READ) = 0
+[pid 53172] mprotect(0x7fc9c3847000, 4096, PROT_READ) = 0
+[pid 53172] munmap(0x7fc9c382d000, 97820) = 0
+[pid 53172] set_tid_address(0x7fc9c3828a10) = 53172
+[pid 53172] set_robust_list(0x7fc9c3828a20, 24) = 0
+[pid 53172] rt_sigaction(SIGRTMIN, {0x7fc9c340ab90, [], SA_RESTORER|SA_SIGINFO, 0x7fc9c34163d0}, NULL, 8) = 0
+[pid 53172] rt_sigaction(SIGRT_1, {0x7fc9c340ac20, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7fc9c34163d0}, NULL, 8) = 0
+[pid 53172] rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+[pid 53172] getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+[pid 53172] brk(NULL)                   = 0x815000
+[pid 53172] brk(0x847000)               = 0x847000
+[pid 53172] futex(0x7fc9c31fa1ac, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+[pid 53172] futex(0x7fc9c31fa1b8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+[pid 53172] write(302, "reading map differently", 23) = -1 EBADF (Bad file descriptor)
+[pid 53172] write(302, "Here111\0", 8)  = -1 EBADF (Bad file descriptor)
+[pid 53172] write(302, "Here!!!\0", 8)  = -1 EBADF (Bad file descriptor)
+[pid 53172] statfs("/dev/shm/", {f_type="TMPFS_MAGIC", f_bsize=4096, f_blocks=253811, f_bfree=245384, f_bavail=245384, f_files=253811, f_ffree=253782, f_fsid={0, 0}, f_namelen=255, f_frsize=4096, f_flags=38}) = 0
+[pid 53172] futex(0x7fc9c3621310, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+[pid 53172] lstat("/dev/shm/Lnw5zG", 0x7ffee3ce0200) = -1 ENOENT (No such file or directory)
+[pid 53172] open("/dev/shm/Lnw5zG", O_RDWR|O_CREAT|O_EXCL, 0666) = 3
+[pid 53172] write(3, "\1\0\0\0\0\0\0\0\200\0\0\0\311\177\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 32) = 32
+[pid 53172] mmap(NULL, 32, PROT_READ|PROT_WRITE, MAP_SHARED, 3, 0) = 0x7fc9c3844000
+[pid 53172] link("/dev/shm/Lnw5zG", "/dev/shm/sem.semSHM") = 0
+[pid 53172] fstat(3, {st_mode=S_IFREG|0664, st_size=32, ...}) = 0
+[pid 53172] unlink("/dev/shm/Lnw5zG")   = 0
+[pid 53172] close(3)                    = 0
+[pid 53172] write(305, "my message", 10) = -1 EBADF (Bad file descriptor)
+[pid 53172] write(302, "Here!!!\0", 8)  = -1 EBADF (Bad file descriptor)
+[pid 53172] open("mymap.txt", O_RDONLY <unfinished ...>
+[pid 53169] <... open resumed> )        = 3
+[pid 53172] <... open resumed> )        = 3
+[pid 53169] write(401, "send map", 8 <unfinished ...>
+[pid 53172] write(302, "Here2\0", 6 <unfinished ...>
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53172] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] write(3, "0\n* *\n* *\n", 10) = 10
+[pid 53172] read(3,  <unfinished ...>
+[pid 53169] close(3 <unfinished ...>
+[pid 53172] <... read resumed> "0\n* *\n* *\n", 8191) = 10
+[pid 53169] <... close resumed> )       = 0
+[pid 53169] pipe( <unfinished ...>
+[pid 53172] read(3,  <unfinished ...>
+[pid 53169] <... pipe resumed> [3, 4])  = 0
+[pid 53172] <... read resumed> "", 8191) = 0
+[pid 53169] pipe([5, 6])                = 0
+[pid 53172] close(3 <unfinished ...>
+[pid 53169] clone(strace: Process 53176 attached
+child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc0c940da10) = 53176
+[pid 53172] <... close resumed> )       = 0
+[pid 53169] close(4 <unfinished ...>
+[pid 53176] write(401, "here 7test A", 12 <unfinished ...>
+[pid 53169] <... close resumed> )       = 0
+[pid 53176] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] close(5 <unfinished ...>
+[pid 53176] close(3 <unfinished ...>
+[pid 53169] <... close resumed> )       = 0
+[pid 53176] <... close resumed> )       = 0
+[pid 53169] dup2(6, 31 <unfinished ...>
+[pid 53176] close(6 <unfinished ...>
+[pid 53169] <... dup2 resumed> )        = 31
+[pid 53176] <... close resumed> )       = 0
+[pid 53169] close(6 <unfinished ...>
+[pid 53176] dup2(5, 0 <unfinished ...>
+[pid 53169] <... close resumed> )       = 0
+[pid 53176] <... dup2 resumed> )        = 0
+[pid 53169] dup2(3, 30 <unfinished ...>
+[pid 53176] close(5 <unfinished ...>
+[pid 53169] <... dup2 resumed> )        = 30
+[pid 53176] <... close resumed> )       = 0
+[pid 53169] close(3 <unfinished ...>
+[pid 53176] dup2(4, 1 <unfinished ...>
+[pid 53169] <... close resumed> )       = 0
+[pid 53176] <... dup2 resumed> )        = 1
+[pid 53169] write(401, "child 1 A", 9 <unfinished ...>
+[pid 53176] close(4 <unfinished ...>
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] <... close resumed> )       = 0
+[pid 53172] open("/dev/shm/mapSHM", O_RDWR|O_CREAT|O_NOFOLLOW|O_CLOEXEC, 0600 <unfinished ...>
+[pid 53169] read(20,  <unfinished ...>
+[pid 53176] execve("./test_prg", [""], [/* 61 vars */] <unfinished ...>
+[pid 53172] <... open resumed> )        = 3
+[pid 53176] <... execve resumed> )      = 0
+[pid 53172] ftruncate(3, 18)            = 0
+[pid 53176] brk(NULL <unfinished ...>
+[pid 53172] mmap(NULL, 18, PROT_READ|PROT_WRITE, MAP_SHARED, 3, 0 <unfinished ...>
+[pid 53176] <... brk resumed> )         = 0x1640000
+[pid 53172] <... mmap resumed> )        = 0x7fc9c3843000
+[pid 53176] access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+[pid 53172] write(201, "calling constructor\0", 20 <unfinished ...>
+[pid 53176] <... access resumed> )      = -1 ENOENT (No such file or directory)
+[pid 53172] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4c9b10a000
+[pid 53172] write(302, "\2\0\0\0", 4 <unfinished ...>
+[pid 53176] access("/etc/ld.so.preload", R_OK <unfinished ...>
+[pid 53172] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] <... access resumed> )      = -1 ENOENT (No such file or directory)
+[pid 53172] write(1, "\2\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\2\0\0\0", 4) = 4
+[pid 53169] write(401, "child 1 A", 9 <unfinished ...>
+[pid 53176] open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] <... open resumed> )        = 3
+[pid 53169] read(20,  <unfinished ...>
+[pid 53172] <... write resumed> )       = 4
+[pid 53176] fstat(3,  <unfinished ...>
+[pid 53172] write(302, "\3\0\0\0", 4 <unfinished ...>
+[pid 53176] <... fstat resumed> {st_mode=S_IFREG|0644, st_size=97820, ...}) = 0
+[pid 53172] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] mmap(NULL, 97820, PROT_READ, MAP_PRIVATE, 3, 0 <unfinished ...>
+[pid 53172] write(1, "\3\0\0\0", 4 <unfinished ...>
+[pid 53176] <... mmap resumed> )        = 0x7f4c9b0f2000
+[pid 53169] <... read resumed> "\3\0\0\0", 4) = 4
+[pid 53176] close(3 <unfinished ...>
+[pid 53172] <... write resumed> )       = 4
+[pid 53169] write(401, "child 1 A", 9 <unfinished ...>
+[pid 53176] <... close resumed> )       = 0
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53172] write(302, "here ctr a", 10 <unfinished ...>
+[pid 53169] read(20,  <unfinished ...>
+[pid 53176] access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+[pid 53172] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] <... access resumed> )      = -1 ENOENT (No such file or directory)
+[pid 53176] open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid 53172] write(1, " \1  \0 ", 6 <unfinished ...>
+[pid 53176] <... open resumed> )        = 3
+[pid 53169] <... read resumed> " \1  \0 ", 6) = 6
+[pid 53176] read(3,  <unfinished ...>
+[pid 53169] write(401, "child 2 A", 9 <unfinished ...>
+[pid 53176] <... read resumed> "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360`\0\0\0\0\0\0"..., 832) = 832
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] fstat(3,  <unfinished ...>
+[pid 53172] <... write resumed> )       = 6
+[pid 53169] read(30,  <unfinished ...>
+[pid 53176] <... fstat resumed> {st_mode=S_IFREG|0755, st_size=138744, ...}) = 0
+[pid 53172] write(201, "calling getkey\0", 15 <unfinished ...>
+[pid 53176] mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0 <unfinished ...>
+[pid 53172] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] <... mmap resumed> )        = 0x7f4c9acca000
+[pid 53176] mprotect(0x7f4c9ace2000, 2093056, PROT_NONE <unfinished ...>
+[pid 53172] write(302, "here get key a", 14 <unfinished ...>
+[pid 53176] <... mprotect resumed> )    = 0
+[pid 53176] mmap(0x7f4c9aee1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000 <unfinished ...>
+[pid 53172] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] <... mmap resumed> )        = 0x7f4c9aee1000
+[pid 53172] write(1, "\1\0\0\0", 4 <unfinished ...>
+[pid 53176] mmap(0x7f4c9aee3000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+[pid 53172] <... write resumed> )       = 4
+[pid 53176] <... mmap resumed> )        = 0x7f4c9aee3000
+[pid 53172] write(302, "here get key b", 14 <unfinished ...>
+[pid 53176] close(3 <unfinished ...>
+[pid 53172] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] <... close resumed> )       = 0
+[pid 53172] write(1, "\0\0\0\0", 4 <unfinished ...>
+[pid 53176] access("/etc/ld.so.nohwcap", F_OK <unfinished ...>
+[pid 53172] <... write resumed> )       = 4
+[pid 53176] <... access resumed> )      = -1 ENOENT (No such file or directory)
+[pid 53172] write(99, "g", 1 <unfinished ...>
+[pid 53176] open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid 53172] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] <... open resumed> )        = 3
+[pid 53172] write(302, "here get key c", 14 <unfinished ...>
+[pid 53176] read(3,  <unfinished ...>
+[pid 53172] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] <... read resumed> "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0!\0\0\0\0\0\0"..., 832) = 832
+[pid 53172] write(1, " \1  \0 ", 6 <unfinished ...>
+[pid 53176] fstat(3,  <unfinished ...>
+[pid 53172] <... write resumed> )       = 6
+[pid 53176] <... fstat resumed> {st_mode=S_IFREG|0644, st_size=31712, ...}) = 0
+[pid 53172] read(0,  <unfinished ...>
+[pid 53176] mmap(NULL, 2128832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f4c9aac2000
+[pid 53176] mprotect(0x7f4c9aac9000, 2093056, PROT_NONE) = 0
+[pid 53176] mmap(0x7f4c9acc8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f4c9acc8000
+[pid 53176] close(3)                    = 0
+[pid 53176] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53176] open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+[pid 53176] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \235\10\0\0\0\0\0"..., 832) = 832
+[pid 53176] fstat(3, {st_mode=S_IFREG|0644, st_size=1566440, ...}) = 0
+[pid 53176] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4c9b0f1000
+[pid 53176] mmap(NULL, 3675136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f4c9a740000
+[pid 53176] mprotect(0x7f4c9a8b2000, 2097152, PROT_NONE) = 0
+[pid 53176] mmap(0x7f4c9aab2000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x172000) = 0x7f4c9aab2000
+[pid 53176] mmap(0x7f4c9aabe000, 13312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f4c9aabe000
+[pid 53176] close(3)                    = 0
+[pid 53176] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53176] open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+[pid 53176] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p*\0\0\0\0\0\0"..., 832) = 832
+[pid 53176] fstat(3, {st_mode=S_IFREG|0644, st_size=89696, ...}) = 0
+[pid 53176] mmap(NULL, 2185488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f4c9a52a000
+[pid 53176] mprotect(0x7f4c9a540000, 2093056, PROT_NONE) = 0
+[pid 53176] mmap(0x7f4c9a73f000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7f4c9a73f000
+[pid 53176] close(3)                    = 0
+[pid 53176] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53176] open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+[pid 53176] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+[pid 53176] fstat(3, {st_mode=S_IFREG|0755, st_size=1864888, ...}) = 0
+[pid 53176] mmap(NULL, 3967488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f4c9a161000
+[pid 53176] mprotect(0x7f4c9a321000, 2093056, PROT_NONE) = 0
+[pid 53176] mmap(0x7f4c9a520000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bf000) = 0x7f4c9a520000
+[pid 53176] mmap(0x7f4c9a526000, 14848, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f4c9a526000
+[pid 53176] close(3)                    = 0
+[pid 53176] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53176] open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+[pid 53176] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0"..., 832) = 832
+[pid 53176] fstat(3, {st_mode=S_IFREG|0644, st_size=1088952, ...}) = 0
+[pid 53176] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4c9b0f0000
+[pid 53176] mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f4c99e58000
+[pid 53176] mprotect(0x7f4c99f60000, 2093056, PROT_NONE) = 0
+[pid 53176] mmap(0x7f4c9a15f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x107000) = 0x7f4c9a15f000
+[pid 53176] close(3)                    = 0
+[pid 53176] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4c9b0ef000
+[pid 53176] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4c9b0ed000
+[pid 53176] arch_prctl(ARCH_SET_FS, 0x7f4c9b0ed740) = 0
+[pid 53176] mprotect(0x7f4c9a520000, 16384, PROT_READ) = 0
+[pid 53176] mprotect(0x7f4c9a15f000, 4096, PROT_READ) = 0
+[pid 53176] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4c9b0ec000
+[pid 53176] mprotect(0x7f4c9aab2000, 40960, PROT_READ) = 0
+[pid 53176] mprotect(0x7f4c9aee1000, 4096, PROT_READ) = 0
+[pid 53176] mprotect(0x7f4c9acc8000, 4096, PROT_READ) = 0
+[pid 53176] mprotect(0x603000, 4096, PROT_READ) = 0
+[pid 53176] mprotect(0x7f4c9b10c000, 4096, PROT_READ) = 0
+[pid 53176] munmap(0x7f4c9b0f2000, 97820) = 0
+[pid 53176] set_tid_address(0x7f4c9b0eda10) = 53176
+[pid 53176] set_robust_list(0x7f4c9b0eda20, 24) = 0
+[pid 53176] rt_sigaction(SIGRTMIN, {0x7f4c9accfb90, [], SA_RESTORER|SA_SIGINFO, 0x7f4c9acdb3d0}, NULL, 8) = 0
+[pid 53176] rt_sigaction(SIGRT_1, {0x7f4c9accfc20, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f4c9acdb3d0}, NULL, 8) = 0
+[pid 53176] rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+[pid 53176] getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+[pid 53176] brk(NULL)                   = 0x1640000
+[pid 53176] brk(0x1672000)              = 0x1672000
+[pid 53176] futex(0x7f4c9aabf1ac, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+[pid 53176] futex(0x7f4c9aabf1b8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+[pid 53176] write(302, "reading map differently", 23) = -1 EBADF (Bad file descriptor)
+[pid 53176] write(302, "Here111\0", 8)  = -1 EBADF (Bad file descriptor)
+[pid 53176] write(302, "Here!!!\0", 8)  = -1 EBADF (Bad file descriptor)
+[pid 53176] statfs("/dev/shm/", {f_type="TMPFS_MAGIC", f_bsize=4096, f_blocks=253811, f_bfree=245382, f_bavail=245382, f_files=253811, f_ffree=253780, f_fsid={0, 0}, f_namelen=255, f_frsize=4096, f_flags=38}) = 0
+[pid 53176] futex(0x7f4c9aee6310, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+[pid 53176] lstat("/dev/shm/VyVi6F", 0x7ffc3d918b40) = -1 ENOENT (No such file or directory)
+[pid 53176] open("/dev/shm/VyVi6F", O_RDWR|O_CREAT|O_EXCL, 0666) = 3
+[pid 53176] write(3, "\1\0\0\0\0\0\0\0\200\0\0\0L\177\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 32) = 32
+[pid 53176] mmap(NULL, 32, PROT_READ|PROT_WRITE, MAP_SHARED, 3, 0) = 0x7f4c9b109000
+[pid 53176] link("/dev/shm/VyVi6F", "/dev/shm/sem.semSHM") = -1 EEXIST (File exists)
+[pid 53176] munmap(0x7f4c9b109000, 32)  = 0
+[pid 53176] unlink("/dev/shm/VyVi6F")   = 0
+[pid 53176] close(3)                    = 0
+[pid 53176] write(305, "my message", 10) = -1 EBADF (Bad file descriptor)
+[pid 53176] open("/dev/shm/sem.semSHM", O_RDWR|O_NOFOLLOW) = 3
+[pid 53176] fstat(3, {st_mode=S_IFREG|0664, st_size=32, ...}) = 0
+[pid 53176] mmap(NULL, 32, PROT_READ|PROT_WRITE, MAP_SHARED, 3, 0) = 0x7f4c9b109000
+[pid 53176] close(3)                    = 0
+[pid 53176] open("/dev/shm/mapSHM", O_RDWR|O_NOFOLLOW|O_CLOEXEC) = 3
+[pid 53176] mmap(NULL, 12, PROT_READ|PROT_WRITE, MAP_SHARED, 3, 0) = 0x7f4c9b108000
+[pid 53176] write(201, "calling constructor\0", 20) = -1 EBADF (Bad file descriptor)
+[pid 53176] write(302, "\2\0\0\0", 4)   = -1 EBADF (Bad file descriptor)
+[pid 53176] write(1, "\2\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\2\0\0\0", 4) = 4
+[pid 53176] <... write resumed> )       = 4
+[pid 53169] write(401, "child 2 B", 9 <unfinished ...>
+[pid 53176] write(302, "\3\0\0\0", 4 <unfinished ...>
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] read(30,  <unfinished ...>
+[pid 53176] write(1, "\3\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\3\0\0\0", 4) = 4
+[pid 53176] <... write resumed> )       = 4
+[pid 53169] write(401, "child 2 C", 9 <unfinished ...>
+[pid 53176] write(302, "here ctr a", 10 <unfinished ...>
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] read(30,  <unfinished ...>
+[pid 53176] write(1, " \1  \2 ", 6 <unfinished ...>
+[pid 53169] <... read resumed> " \1  \2 ", 6) = 6
+[pid 53176] <... write resumed> )       = 6
+[pid 53169] write(401, "p1 map A", 8 <unfinished ...>
+[pid 53176] write(201, "calling getkey\0", 15 <unfinished ...>
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] read(20,  <unfinished ...>
+[pid 53176] write(302, "here get key a", 14 <unfinished ...>
+[pid 53169] <... read resumed> "\1\0\0\0", 4) = 4
+[pid 53169] write(401, "p1 map B", 8 <unfinished ...>
+[pid 53176] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] write(1, "\1\0\0\0", 4 <unfinished ...>
+[pid 53169] read(20,  <unfinished ...>
+[pid 53176] <... write resumed> )       = 4
+[pid 53169] <... read resumed> "\0\0\0\0", 4) = 4
+[pid 53176] write(302, "here get key b", 14 <unfinished ...>
+[pid 53169] write(401, "p1 map C", 8 <unfinished ...>
+[pid 53176] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] read(20,  <unfinished ...>
+[pid 53176] write(1, "\0\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> " \1  \0 ", 6) = 6
+[pid 53176] <... write resumed> )       = 4
+[pid 53169] write(401, "p1 map D", 8 <unfinished ...>
+[pid 53176] write(99, "g", 1 <unfinished ...>
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] read(30,  <unfinished ...>
+[pid 53176] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] <... read resumed> "\1\0\0\0", 4) = 4
+[pid 53176] write(302, "here get key c", 14 <unfinished ...>
+[pid 53169] read(30,  <unfinished ...>
+[pid 53176] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] <... read resumed> "\0\0\0\0", 4) = 4
+[pid 53169] read(30,  <unfinished ...>
+[pid 53176] write(1, " \1  \2 ", 6 <unfinished ...>
+[pid 53169] <... read resumed> " \1  \2 ", 6) = 6
+[pid 53176] <... write resumed> )       = 6
+[pid 53169] write(401, "here 7 test checking if 2 player"..., 40 <unfinished ...>
+[pid 53176] read(0,  <unfinished ...>
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] write(401, "here 7 test C", 13) = -1 EBADF (Bad file descriptor)
+[pid 53169] write(21, "k", 1)           = 1
+[pid 53172] <... read resumed> "k", 4)  = 1
+[pid 53169] fstat(1,  <unfinished ...>
+[pid 53172] write(201, "calling getkey\0", 15 <unfinished ...>
+[pid 53169] <... fstat resumed> {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 2), ...}) = 0
+[pid 53172] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] write(1, "test 6 success part 1. 2 players"..., 43 <unfinished ...>
+[pid 53172] write(302, "here get key a", 14 <unfinished ...>
+[pid 53169] <... write resumed> )       = 43
+[pid 53172] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] write(401, "child 1 A read", 14 <unfinished ...>
+[pid 53172] write(1, "\1\0\0\0", 4 <unfinished ...>
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53172] <... write resumed> )       = 4
+[pid 53169] read(20,  <unfinished ...>
+[pid 53172] write(302, "here get key b", 14 <unfinished ...>
+[pid 53169] <... read resumed> "\1\0\0\0", 4) = 4
+[pid 53172] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] write(401, "child 1 B read", 14 <unfinished ...>
+[pid 53172] write(1, "\1\0\0\0", 4 <unfinished ...>
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53172] <... write resumed> )       = 4
+[pid 53169] read(20,  <unfinished ...>
+[pid 53172] write(99, "g", 1 <unfinished ...>
+[pid 53169] <... read resumed> "\1\0\0\0", 4) = 4
+[pid 53172] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] write(401, "child 1 C read", 14 <unfinished ...>
+[pid 53172] write(302, "here get key c", 14 <unfinished ...>
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53172] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] read(20,  <unfinished ...>
+[pid 53172] write(1, " \1  \2 ", 6 <unfinished ...>
+[pid 53169] <... read resumed> " \1  \2 ", 6) = 6
+[pid 53172] <... write resumed> )       = 6
+[pid 53169] write(31, "j", 1)           = 1
+[pid 53176] <... read resumed> "j", 4)  = 1
+[pid 53169] write(401, "here 7 test D", 13 <unfinished ...>
+[pid 53176] write(201, "calling getkey\0", 15 <unfinished ...>
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53172] read(0,  <unfinished ...>
+[pid 53169] write(401, "child 2 A read", 14 <unfinished ...>
+[pid 53176] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] write(302, "here get key a", 14 <unfinished ...>
+[pid 53169] read(30,  <unfinished ...>
+[pid 53176] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] write(1, "\1\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\1\0\0\0", 4) = 4
+[pid 53176] <... write resumed> )       = 4
+[pid 53169] write(401, "child 2 B read", 14) = -1 EBADF (Bad file descriptor)
+[pid 53176] write(302, "here get key b", 14 <unfinished ...>
+[pid 53169] read(30,  <unfinished ...>
+[pid 53176] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] write(1, "\1\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\1\0\0\0", 4) = 4
+[pid 53176] <... write resumed> )       = 4
+[pid 53169] write(401, "child 2 C read", 14) = -1 EBADF (Bad file descriptor)
+[pid 53176] write(99, "g", 1 <unfinished ...>
+[pid 53169] read(30,  <unfinished ...>
+[pid 53176] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] write(302, "here get key c", 14) = -1 EBADF (Bad file descriptor)
+[pid 53176] write(1, " \1  \2 ", 6 <unfinished ...>
+[pid 53169] <... read resumed> " \1  \2 ", 6) = 6
+[pid 53176] <... write resumed> )       = 6
+[pid 53169] write(401, "here 7 test E", 13 <unfinished ...>
+[pid 53176] read(0,  <unfinished ...>
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] write(31, "k", 1)           = 1
+[pid 53176] <... read resumed> "k", 4)  = 1
+[pid 53169] write(21, "j", 1 <unfinished ...>
+[pid 53176] write(201, "calling getkey\0", 15 <unfinished ...>
+[pid 53169] <... write resumed> )       = 1
+[pid 53172] <... read resumed> "j", 4)  = 1
+[pid 53169] write(401, "child 1 A 2 read", 16 <unfinished ...>
+[pid 53176] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] write(302, "here get key a", 14 <unfinished ...>
+[pid 53169] read(20,  <unfinished ...>
+[pid 53176] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53172] write(201, "calling getkey\0", 15 <unfinished ...>
+[pid 53176] write(1, "\1\0\0\0", 4 <unfinished ...>
+[pid 53172] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] <... write resumed> )       = 4
+[pid 53172] write(302, "here get key a", 14 <unfinished ...>
+[pid 53176] write(302, "here get key b", 14 <unfinished ...>
+[pid 53172] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53172] write(1, "\1\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\1\0\0\0", 4) = 4
+[pid 53176] write(1, "\2\0\0\0", 4 <unfinished ...>
+[pid 53169] write(401, "child 1 B 2 read", 16 <unfinished ...>
+[pid 53172] <... write resumed> )       = 4
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] <... write resumed> )       = 4
+[pid 53172] write(302, "here get key b", 14 <unfinished ...>
+[pid 53169] read(20,  <unfinished ...>
+[pid 53176] write(99, "g", 1 <unfinished ...>
+[pid 53172] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53172] write(1, "\2\0\0\0", 4 <unfinished ...>
+[pid 53176] write(302, "here get key c", 14 <unfinished ...>
+[pid 53169] <... read resumed> "\2\0\0\0", 4) = 4
+[pid 53176] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] write(401, "child 1 C 2 read", 16 <unfinished ...>
+[pid 53176] write(1, " \2  \1 ", 6 <unfinished ...>
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] <... write resumed> )       = 6
+[pid 53169] read(20,  <unfinished ...>
+[pid 53172] <... write resumed> )       = 4
+[pid 53176] read(0,  <unfinished ...>
+[pid 53172] write(99, "g", 1)           = -1 EBADF (Bad file descriptor)
+[pid 53172] write(302, "here get key c", 14) = -1 EBADF (Bad file descriptor)
+[pid 53172] write(1, " \2  \1 ", 6 <unfinished ...>
+[pid 53169] <... read resumed> " \2  \1 ", 6) = 6
+[pid 53172] <... write resumed> )       = 6
+[pid 53169] write(401, "child 2 101 read", 16 <unfinished ...>
+[pid 53172] read(0,  <unfinished ...>
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] read(30, "\1\0\0\0", 4)     = 4
+[pid 53169] write(401, "child 2 102 read", 16) = -1 EBADF (Bad file descriptor)
+[pid 53169] read(30, "\2\0\0\0", 4)     = 4
+[pid 53169] write(401, "child 2 103 read", 16) = -1 EBADF (Bad file descriptor)
+[pid 53169] read(30, " \2  \1 ", 6)     = 6
+[pid 53169] write(401, "here 7 test F", 13) = -1 EBADF (Bad file descriptor)
+[pid 53169] write(21, "l", 1)           = 1
+[pid 53172] <... read resumed> "l", 4)  = 1
+[pid 53169] write(401, "child 1 101 read", 16) = -1 EBADF (Bad file descriptor)
+[pid 53172] write(201, "calling getkey\0", 15 <unfinished ...>
+[pid 53169] read(20,  <unfinished ...>
+[pid 53172] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53172] write(302, "here get key a", 14) = -1 EBADF (Bad file descriptor)
+[pid 53172] write(1, "\1\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\1\0\0\0", 4) = 4
+[pid 53172] <... write resumed> )       = 4
+[pid 53169] write(401, "child 1 102 read", 16 <unfinished ...>
+[pid 53172] write(302, "here get key b", 14 <unfinished ...>
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53172] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] read(20,  <unfinished ...>
+[pid 53172] write(1, "\3\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\3\0\0\0", 4) = 4
+[pid 53172] <... write resumed> )       = 4
+[pid 53169] write(401, "child 1 103 read", 16 <unfinished ...>
+[pid 53172] write(99, "g", 1 <unfinished ...>
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53172] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] read(20,  <unfinished ...>
+[pid 53172] write(302, "here get key c", 14) = -1 EBADF (Bad file descriptor)
+[pid 53172] write(1, " \2  \1 ", 6 <unfinished ...>
+[pid 53169] <... read resumed> " \2  \1 ", 6) = 6
+[pid 53172] <... write resumed> )       = 6
+[pid 53169] write(1, "test 7 success\n", 15 <unfinished ...>
+[pid 53172] read(0,  <unfinished ...>
+[pid 53169] <... write resumed> )       = 15
+[pid 53169] write(401, "testing over 4", 14) = -1 EBADF (Bad file descriptor)
+[pid 53169] write(21, "Q", 1)           = 1
+[pid 53172] <... read resumed> "Q", 4)  = 1
+[pid 53169] close(20 <unfinished ...>
+[pid 53172] exit_group(0)               = ?
+[pid 53169] <... close resumed> )       = 0
+[pid 53172] +++ exited with 0 +++
+[pid 53169] --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=53172, si_uid=1000, si_status=0, si_utime=0, si_stime=1} ---
+[pid 53169] close(21)                   = 0
+[pid 53169] write(31, "Q", 1)           = 1
+[pid 53176] <... read resumed> "Q", 4)  = 1
+[pid 53169] close(30 <unfinished ...>
+[pid 53176] munmap(0x7f4c9b109000, 32 <unfinished ...>
+[pid 53169] <... close resumed> )       = 0
+[pid 53176] <... munmap resumed> )      = 0
+[pid 53169] close(31 <unfinished ...>
+[pid 53176] unlink("/dev/shm/sem.semSHM" <unfinished ...>
+[pid 53169] <... close resumed> )       = 0
+[pid 53176] <... unlink resumed> )      = 0
+[pid 53169] unlink("mymap.txt" <unfinished ...>
+[pid 53176] unlink("/dev/shm/mapSHM" <unfinished ...>
+[pid 53169] <... unlink resumed> )      = 0
+[pid 53169] mknod("mymap.txt", S_IFIFO|0600 <unfinished ...>
+[pid 53176] <... unlink resumed> )      = 0
+[pid 53169] <... mknod resumed> )       = 0
+[pid 53176] --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=0x7f4c9b109008} ---
+[pid 53169] pipe([3, 4])                = 0
+[pid 53169] pipe([5, 6])                = 0
+[pid 53169] clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc0c940da10) = 53179
+[pid 53169] open("mymap.txt", O_WRONLYstrace: Process 53179 attached
+ <unfinished ...>
+[pid 53179] close(3)                    = 0
+[pid 53179] close(6)                    = 0
+[pid 53179] dup2(5, 0)                  = 0
+[pid 53179] close(5)                    = 0
+[pid 53179] dup2(4, 1)                  = 1
+[pid 53179] close(4)                    = 0
+[pid 53179] execve("./test_prg", [""], [/* 61 vars */]) = 0
+[pid 53179] brk(NULL)                   = 0x2413000
+[pid 53179] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53179] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f41f3150000
+[pid 53179] access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid 53179] open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+[pid 53179] fstat(3, {st_mode=S_IFREG|0644, st_size=97820, ...}) = 0
+[pid 53179] mmap(NULL, 97820, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f41f3138000
+[pid 53179] close(3)                    = 0
+[pid 53179] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53179] open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+[pid 53179] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360`\0\0\0\0\0\0"..., 832) = 832
+[pid 53179] fstat(3, {st_mode=S_IFREG|0755, st_size=138744, ...}) = 0
+[pid 53179] mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f41f2d10000
+[pid 53179] mprotect(0x7f41f2d28000, 2093056, PROT_NONE) = 0
+[pid 53179] mmap(0x7f41f2f27000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f41f2f27000
+[pid 53179] mmap(0x7f41f2f29000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f41f2f29000
+[pid 53179] close(3)                    = 0
+[pid 53179] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53179] open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+[pid 53179] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0!\0\0\0\0\0\0"..., 832) = 832
+[pid 53179] fstat(3, {st_mode=S_IFREG|0644, st_size=31712, ...}) = 0
+[pid 53179] mmap(NULL, 2128832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f41f2b08000
+[pid 53179] mprotect(0x7f41f2b0f000, 2093056, PROT_NONE) = 0
+[pid 53179] mmap(0x7f41f2d0e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f41f2d0e000
+[pid 53179] close(3)                    = 0
+[pid 53179] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53179] open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+[pid 53179] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \235\10\0\0\0\0\0"..., 832) = 832
+[pid 53179] fstat(3, {st_mode=S_IFREG|0644, st_size=1566440, ...}) = 0
+[pid 53179] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f41f3137000
+[pid 53179] mmap(NULL, 3675136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f41f2786000
+[pid 53179] mprotect(0x7f41f28f8000, 2097152, PROT_NONE) = 0
+[pid 53179] mmap(0x7f41f2af8000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x172000) = 0x7f41f2af8000
+[pid 53179] mmap(0x7f41f2b04000, 13312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f41f2b04000
+[pid 53179] close(3)                    = 0
+[pid 53179] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53179] open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+[pid 53179] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p*\0\0\0\0\0\0"..., 832) = 832
+[pid 53179] fstat(3, {st_mode=S_IFREG|0644, st_size=89696, ...}) = 0
+[pid 53179] mmap(NULL, 2185488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f41f2570000
+[pid 53179] mprotect(0x7f41f2586000, 2093056, PROT_NONE) = 0
+[pid 53179] mmap(0x7f41f2785000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7f41f2785000
+[pid 53179] close(3)                    = 0
+[pid 53179] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53179] open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+[pid 53179] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+[pid 53179] fstat(3, {st_mode=S_IFREG|0755, st_size=1864888, ...}) = 0
+[pid 53179] mmap(NULL, 3967488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f41f21a7000
+[pid 53179] mprotect(0x7f41f2367000, 2093056, PROT_NONE) = 0
+[pid 53179] mmap(0x7f41f2566000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bf000) = 0x7f41f2566000
+[pid 53179] mmap(0x7f41f256c000, 14848, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f41f256c000
+[pid 53179] close(3)                    = 0
+[pid 53179] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53179] open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+[pid 53179] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0"..., 832) = 832
+[pid 53179] fstat(3, {st_mode=S_IFREG|0644, st_size=1088952, ...}) = 0
+[pid 53179] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f41f3136000
+[pid 53179] mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f41f1e9e000
+[pid 53179] mprotect(0x7f41f1fa6000, 2093056, PROT_NONE) = 0
+[pid 53179] mmap(0x7f41f21a5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x107000) = 0x7f41f21a5000
+[pid 53179] close(3)                    = 0
+[pid 53179] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f41f3135000
+[pid 53179] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f41f3133000
+[pid 53179] arch_prctl(ARCH_SET_FS, 0x7f41f3133740) = 0
+[pid 53179] mprotect(0x7f41f2566000, 16384, PROT_READ) = 0
+[pid 53179] mprotect(0x7f41f21a5000, 4096, PROT_READ) = 0
+[pid 53179] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f41f3132000
+[pid 53179] mprotect(0x7f41f2af8000, 40960, PROT_READ) = 0
+[pid 53179] mprotect(0x7f41f2f27000, 4096, PROT_READ) = 0
+[pid 53179] mprotect(0x7f41f2d0e000, 4096, PROT_READ) = 0
+[pid 53179] mprotect(0x603000, 4096, PROT_READ) = 0
+[pid 53179] mprotect(0x7f41f3152000, 4096, PROT_READ) = 0
+[pid 53179] munmap(0x7f41f3138000, 97820) = 0
+[pid 53179] set_tid_address(0x7f41f3133a10) = 53179
+[pid 53179] set_robust_list(0x7f41f3133a20, 24) = 0
+[pid 53179] rt_sigaction(SIGRTMIN, {0x7f41f2d15b90, [], SA_RESTORER|SA_SIGINFO, 0x7f41f2d213d0}, NULL, 8) = 0
+[pid 53179] rt_sigaction(SIGRT_1, {0x7f41f2d15c20, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f41f2d213d0}, NULL, 8) = 0
+[pid 53179] rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+[pid 53179] getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+[pid 53179] brk(NULL)                   = 0x2413000
+[pid 53179] brk(0x2445000)              = 0x2445000
+[pid 53179] futex(0x7f41f2b051ac, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+[pid 53179] futex(0x7f41f2b051b8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+[pid 53179] write(302, "reading map differently", 23) = -1 EBADF (Bad file descriptor)
+[pid 53179] write(302, "Here111\0", 8)  = -1 EBADF (Bad file descriptor)
+[pid 53179] write(302, "Here!!!\0", 8)  = -1 EBADF (Bad file descriptor)
+[pid 53179] statfs("/dev/shm/", {f_type="TMPFS_MAGIC", f_bsize=4096, f_blocks=253811, f_bfree=245383, f_bavail=245383, f_files=253811, f_ffree=253781, f_fsid={0, 0}, f_namelen=255, f_frsize=4096, f_flags=38}) = 0
+[pid 53179] futex(0x7f41f2f2c310, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+[pid 53179] lstat("/dev/shm/2gTSoL", 0x7ffe51741f00) = -1 ENOENT (No such file or directory)
+[pid 53179] open("/dev/shm/2gTSoL", O_RDWR|O_CREAT|O_EXCL, 0666) = 3
+[pid 53179] write(3, "\1\0\0\0\0\0\0\0\200\0\0\0A\177\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 32) = 32
+[pid 53179] mmap(NULL, 32, PROT_READ|PROT_WRITE, MAP_SHARED, 3, 0) = 0x7f41f314f000
+[pid 53179] link("/dev/shm/2gTSoL", "/dev/shm/sem.semSHM") = 0
+[pid 53179] fstat(3, {st_mode=S_IFREG|0664, st_size=32, ...}) = 0
+[pid 53179] unlink("/dev/shm/2gTSoL")   = 0
+[pid 53179] close(3)                    = 0
+[pid 53179] write(305, "my message", 10) = -1 EBADF (Bad file descriptor)
+[pid 53179] write(302, "Here!!!\0", 8)  = -1 EBADF (Bad file descriptor)
+[pid 53179] open("mymap.txt", O_RDONLY <unfinished ...>
+[pid 53169] <... open resumed> )        = 7
+[pid 53169] write(302, "my place", 8)   = -1 EBADF (Bad file descriptor)
+[pid 53169] write(7, "1\n* *\n* *\n", 10) = 10
+[pid 53169] close(7)                    = 0
+[pid 53169] close(4)                    = 0
+[pid 53169] close(5)                    = 0
+[pid 53169] dup2(6, 21)                 = 21
+[pid 53169] close(6)                    = 0
+[pid 53169] dup2(3, 20)                 = 20
+[pid 53169] close(3)                    = 0
+[pid 53169] read(20,  <unfinished ...>
+[pid 53179] <... open resumed> )        = 3
+[pid 53179] write(302, "Here2\0", 6)    = -1 EBADF (Bad file descriptor)
+[pid 53179] read(3, "1\n* *\n* *\n", 8191) = 10
+[pid 53179] read(3, "", 8191)           = 0
+[pid 53179] close(3)                    = 0
+[pid 53179] open("/dev/shm/mapSHM", O_RDWR|O_CREAT|O_NOFOLLOW|O_CLOEXEC, 0600) = 3
+[pid 53179] ftruncate(3, 18)            = 0
+[pid 53179] mmap(NULL, 18, PROT_READ|PROT_WRITE, MAP_SHARED, 3, 0) = 0x7f41f314e000
+[pid 53179] write(201, "calling constructor\0", 20) = -1 EBADF (Bad file descriptor)
+[pid 53179] write(302, "\2\0\0\0", 4)   = -1 EBADF (Bad file descriptor)
+[pid 53179] write(1, "\2\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\2\0\0\0", 4) = 4
+[pid 53169] read(20,  <unfinished ...>
+[pid 53179] <... write resumed> )       = 4
+[pid 53179] write(302, "\3\0\0\0", 4)   = -1 EBADF (Bad file descriptor)
+[pid 53179] write(1, "\3\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\3\0\0\0", 4) = 4
+[pid 53169] read(20,  <unfinished ...>
+[pid 53179] <... write resumed> )       = 4
+[pid 53179] write(302, "here ctr a", 10) = -1 EBADF (Bad file descriptor)
+[pid 53179] write(1, " \1  @ ", 6 <unfinished ...>
+[pid 53169] <... read resumed> " \1  @ ", 6) = 6
+[pid 53169] read(20,  <unfinished ...>
+[pid 53179] <... write resumed> )       = 6
+[pid 53179] write(201, "calling getkey\0", 15) = -1 EBADF (Bad file descriptor)
+[pid 53179] write(302, "here get key a", 14) = -1 EBADF (Bad file descriptor)
+[pid 53179] write(1, "\1\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\1\0\0\0", 4) = 4
+[pid 53169] read(20,  <unfinished ...>
+[pid 53179] <... write resumed> )       = 4
+[pid 53179] write(302, "here get key b", 14) = -1 EBADF (Bad file descriptor)
+[pid 53179] write(1, "\0\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\0\0\0\0", 4) = 4
+[pid 53179] <... write resumed> )       = 4
+[pid 53169] read(20,  <unfinished ...>
+[pid 53179] write(99, "g", 1)           = -1 EBADF (Bad file descriptor)
+[pid 53179] write(302, "here get key c", 14) = -1 EBADF (Bad file descriptor)
+[pid 53179] write(1, " \1  @ ", 6 <unfinished ...>
+[pid 53169] <... read resumed> " \1  @ ", 6) = 6
+[pid 53169] write(303, " ", 1)          = -1 EBADF (Bad file descriptor)
+[pid 53169] write(21, "k", 1)           = 1
+[pid 53169] read(20,  <unfinished ...>
+[pid 53179] <... write resumed> )       = 6
+[pid 53179] read(0, "k", 4)             = 1
+[pid 53179] write(201, "calling getkey\0", 15) = -1 EBADF (Bad file descriptor)
+[pid 53179] write(302, "here get key a", 14) = -1 EBADF (Bad file descriptor)
+[pid 53179] write(1, "\1\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\1\0\0\0", 4) = 4
+[pid 53169] read(20,  <unfinished ...>
+[pid 53179] <... write resumed> )       = 4
+[pid 53179] write(302, "here get key b", 14) = -1 EBADF (Bad file descriptor)
+[pid 53179] write(1, "\1\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\1\0\0\0", 4) = 4
+[pid 53169] read(20,  <unfinished ...>
+[pid 53179] <... write resumed> )       = 4
+[pid 53179] write(99, "g", 1)           = -1 EBADF (Bad file descriptor)
+[pid 53179] write(302, "here get key c", 14) = -1 EBADF (Bad file descriptor)
+[pid 53179] write(1, " \1  @ ", 6 <unfinished ...>
+[pid 53169] <... read resumed> " \1  @ ", 6) = 6
+[pid 53169] write(21, "j", 1)           = 1
+[pid 53169] read(20,  <unfinished ...>
+[pid 53179] <... write resumed> )       = 6
+[pid 53179] read(0, "j", 4)             = 1
+[pid 53179] write(201, "calling getkey\0", 15) = -1 EBADF (Bad file descriptor)
+[pid 53179] write(302, "here get key a", 14) = -1 EBADF (Bad file descriptor)
+[pid 53179] write(1, "\2\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\2\0\0\0", 4) = 4
+[pid 53169] read(20,  <unfinished ...>
+[pid 53179] <... write resumed> )       = 4
+[pid 53179] write(302, "here get key b", 14) = -1 EBADF (Bad file descriptor)
+[pid 53179] write(1, "\2\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\2\0\0\0", 4) = 4
+[pid 53169] read(20,  <unfinished ...>
+[pid 53179] <... write resumed> )       = 4
+[pid 53179] write(99, "g", 1)           = -1 EBADF (Bad file descriptor)
+[pid 53179] write(302, "here get key c", 14) = -1 EBADF (Bad file descriptor)
+[pid 53179] write(1, " \0  A ", 6 <unfinished ...>
+[pid 53169] <... read resumed> " \0  A ", 6) = 6
+[pid 53169] write(21, "j", 1)           = 1
+[pid 53169] write(1, "test 5 success\n", 15) = 15
+[pid 53169] close(20)                   = 0
+[pid 53169] close(21)                   = 0
+[pid 53169] unlink("mymap.txt")         = 0
+[pid 53169] mknod("mymap.txt", S_IFIFO|0600) = 0
+[pid 53169] pipe([3, 4])                = 0
+[pid 53169] pipe([5, 6])                = 0
+[pid 53169] clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc0c940da10) = 53181
+[pid 53169] open("mymap.txt", O_WRONLYstrace: Process 53181 attached
+ <unfinished ...>
+[pid 53179] <... write resumed> )       = 6
+[pid 53179] read(0, "j", 4)             = 1
+[pid 53179] munmap(0x7f41f314f000, 32 <unfinished ...>
+[pid 53181] close(3)                    = 0
+[pid 53179] <... munmap resumed> )      = 0
+[pid 53181] close(6 <unfinished ...>
+[pid 53179] unlink("/dev/shm/sem.semSHM" <unfinished ...>
+[pid 53181] <... close resumed> )       = 0
+[pid 53179] <... unlink resumed> )      = 0
+[pid 53181] dup2(5, 0 <unfinished ...>
+[pid 53179] unlink("/dev/shm/mapSHM" <unfinished ...>
+[pid 53181] <... dup2 resumed> )        = 0
+[pid 53179] <... unlink resumed> )      = 0
+[pid 53181] close(5 <unfinished ...>
+[pid 53179] --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=0x7f41f314f008} ---
+[pid 53181] <... close resumed> )       = 0
+[pid 53181] dup2(4, 1)                  = 1
+[pid 53181] close(4)                    = 0
+[pid 53181] execve("./test_prg", [""], [/* 61 vars */]) = 0
+[pid 53181] brk(NULL)                   = 0x626000
+[pid 53181] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53181] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff2f4ae7000
+[pid 53181] access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid 53181] open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+[pid 53181] fstat(3, {st_mode=S_IFREG|0644, st_size=97820, ...}) = 0
+[pid 53181] mmap(NULL, 97820, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff2f4acf000
+[pid 53181] close(3)                    = 0
+[pid 53181] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53181] open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+[pid 53181] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360`\0\0\0\0\0\0"..., 832) = 832
+[pid 53181] fstat(3, {st_mode=S_IFREG|0755, st_size=138744, ...}) = 0
+[pid 53181] mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff2f46a7000
+[pid 53181] mprotect(0x7ff2f46bf000, 2093056, PROT_NONE) = 0
+[pid 53181] mmap(0x7ff2f48be000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7ff2f48be000
+[pid 53181] mmap(0x7ff2f48c0000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff2f48c0000
+[pid 53181] close(3)                    = 0
+[pid 53181] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53181] open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+[pid 53181] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0!\0\0\0\0\0\0"..., 832) = 832
+[pid 53181] fstat(3, {st_mode=S_IFREG|0644, st_size=31712, ...}) = 0
+[pid 53181] mmap(NULL, 2128832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff2f449f000
+[pid 53181] mprotect(0x7ff2f44a6000, 2093056, PROT_NONE) = 0
+[pid 53181] mmap(0x7ff2f46a5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7ff2f46a5000
+[pid 53181] close(3)                    = 0
+[pid 53181] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53181] open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+[pid 53181] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \235\10\0\0\0\0\0"..., 832) = 832
+[pid 53181] fstat(3, {st_mode=S_IFREG|0644, st_size=1566440, ...}) = 0
+[pid 53181] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff2f4ace000
+[pid 53181] mmap(NULL, 3675136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff2f411d000
+[pid 53181] mprotect(0x7ff2f428f000, 2097152, PROT_NONE) = 0
+[pid 53181] mmap(0x7ff2f448f000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x172000) = 0x7ff2f448f000
+[pid 53181] mmap(0x7ff2f449b000, 13312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff2f449b000
+[pid 53181] close(3)                    = 0
+[pid 53181] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53181] open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+[pid 53181] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p*\0\0\0\0\0\0"..., 832) = 832
+[pid 53181] fstat(3, {st_mode=S_IFREG|0644, st_size=89696, ...}) = 0
+[pid 53181] mmap(NULL, 2185488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff2f3f07000
+[pid 53181] mprotect(0x7ff2f3f1d000, 2093056, PROT_NONE) = 0
+[pid 53181] mmap(0x7ff2f411c000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7ff2f411c000
+[pid 53181] close(3)                    = 0
+[pid 53181] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53181] open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+[pid 53181] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+[pid 53181] fstat(3, {st_mode=S_IFREG|0755, st_size=1864888, ...}) = 0
+[pid 53181] mmap(NULL, 3967488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff2f3b3e000
+[pid 53181] mprotect(0x7ff2f3cfe000, 2093056, PROT_NONE) = 0
+[pid 53181] mmap(0x7ff2f3efd000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bf000) = 0x7ff2f3efd000
+[pid 53181] mmap(0x7ff2f3f03000, 14848, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff2f3f03000
+[pid 53181] close(3)                    = 0
+[pid 53181] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53181] open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+[pid 53181] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0"..., 832) = 832
+[pid 53181] fstat(3, {st_mode=S_IFREG|0644, st_size=1088952, ...}) = 0
+[pid 53181] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff2f4acd000
+[pid 53181] mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff2f3835000
+[pid 53181] mprotect(0x7ff2f393d000, 2093056, PROT_NONE) = 0
+[pid 53181] mmap(0x7ff2f3b3c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x107000) = 0x7ff2f3b3c000
+[pid 53181] close(3)                    = 0
+[pid 53181] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff2f4acc000
+[pid 53181] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff2f4aca000
+[pid 53181] arch_prctl(ARCH_SET_FS, 0x7ff2f4aca740) = 0
+[pid 53181] mprotect(0x7ff2f3efd000, 16384, PROT_READ) = 0
+[pid 53181] mprotect(0x7ff2f3b3c000, 4096, PROT_READ) = 0
+[pid 53181] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff2f4ac9000
+[pid 53181] mprotect(0x7ff2f448f000, 40960, PROT_READ) = 0
+[pid 53181] mprotect(0x7ff2f48be000, 4096, PROT_READ) = 0
+[pid 53181] mprotect(0x7ff2f46a5000, 4096, PROT_READ) = 0
+[pid 53181] mprotect(0x603000, 4096, PROT_READ) = 0
+[pid 53181] mprotect(0x7ff2f4ae9000, 4096, PROT_READ) = 0
+[pid 53181] munmap(0x7ff2f4acf000, 97820) = 0
+[pid 53181] set_tid_address(0x7ff2f4acaa10) = 53181
+[pid 53181] set_robust_list(0x7ff2f4acaa20, 24) = 0
+[pid 53181] rt_sigaction(SIGRTMIN, {0x7ff2f46acb90, [], SA_RESTORER|SA_SIGINFO, 0x7ff2f46b83d0}, NULL, 8) = 0
+[pid 53181] rt_sigaction(SIGRT_1, {0x7ff2f46acc20, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7ff2f46b83d0}, NULL, 8) = 0
+[pid 53181] rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+[pid 53181] getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+[pid 53181] brk(NULL)                   = 0x626000
+[pid 53181] brk(0x658000)               = 0x658000
+[pid 53181] futex(0x7ff2f449c1ac, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+[pid 53181] futex(0x7ff2f449c1b8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+[pid 53181] write(302, "reading map differently", 23) = -1 EBADF (Bad file descriptor)
+[pid 53181] write(302, "Here111\0", 8)  = -1 EBADF (Bad file descriptor)
+[pid 53181] write(302, "Here!!!\0", 8)  = -1 EBADF (Bad file descriptor)
+[pid 53181] statfs("/dev/shm/", {f_type="TMPFS_MAGIC", f_bsize=4096, f_blocks=253811, f_bfree=245382, f_bavail=245382, f_files=253811, f_ffree=253780, f_fsid={0, 0}, f_namelen=255, f_frsize=4096, f_flags=38}) = 0
+[pid 53181] futex(0x7ff2f48c3310, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+[pid 53181] lstat("/dev/shm/KoEnCM", 0x7ffeaff179d0) = -1 ENOENT (No such file or directory)
+[pid 53181] open("/dev/shm/KoEnCM", O_RDWR|O_CREAT|O_EXCL, 0666) = 3
+[pid 53181] write(3, "\1\0\0\0\0\0\0\0\200\0\0\0\362\177\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 32) = 32
+[pid 53181] mmap(NULL, 32, PROT_READ|PROT_WRITE, MAP_SHARED, 3, 0) = 0x7ff2f4ae6000
+[pid 53181] link("/dev/shm/KoEnCM", "/dev/shm/sem.semSHM") = 0
+[pid 53181] fstat(3, {st_mode=S_IFREG|0664, st_size=32, ...}) = 0
+[pid 53181] unlink("/dev/shm/KoEnCM")   = 0
+[pid 53181] close(3)                    = 0
+[pid 53181] write(305, "my message", 10) = -1 EBADF (Bad file descriptor)
+[pid 53181] write(302, "Here!!!\0", 8)  = -1 EBADF (Bad file descriptor)
+[pid 53181] open("mymap.txt", O_RDONLY) = 3
+[pid 53181] write(302, "Here2\0", 6)    = -1 EBADF (Bad file descriptor)
+[pid 53181] read(3,  <unfinished ...>
+[pid 53169] <... open resumed> )        = 7
+[pid 53169] write(302, "my place", 8)   = -1 EBADF (Bad file descriptor)
+[pid 53169] write(7, "0\n***\n* *\n", 10) = 10
+[pid 53169] close(7)                    = 0
+[pid 53169] close(4)                    = 0
+[pid 53169] close(5)                    = 0
+[pid 53169] dup2(6, 21)                 = 21
+[pid 53169] close(6)                    = 0
+[pid 53169] dup2(3, 20)                 = 20
+[pid 53169] close(3)                    = 0
+[pid 53169] read(20,  <unfinished ...>
+[pid 53181] <... read resumed> "0\n***\n* *\n", 8191) = 10
+[pid 53181] read(3, "", 8191)           = 0
+[pid 53181] close(3)                    = 0
+[pid 53181] open("/dev/shm/mapSHM", O_RDWR|O_CREAT|O_NOFOLLOW|O_CLOEXEC, 0600) = 3
+[pid 53181] ftruncate(3, 18)            = 0
+[pid 53181] mmap(NULL, 18, PROT_READ|PROT_WRITE, MAP_SHARED, 3, 0) = 0x7ff2f4ae5000
+[pid 53181] write(201, "calling constructor\0", 20) = -1 EBADF (Bad file descriptor)
+[pid 53181] write(302, "\2\0\0\0", 4)   = -1 EBADF (Bad file descriptor)
+[pid 53181] write(1, "\2\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\2\0\0\0", 4) = 4
+[pid 53169] read(20,  <unfinished ...>
+[pid 53181] <... write resumed> )       = 4
+[pid 53181] write(302, "\3\0\0\0", 4)   = -1 EBADF (Bad file descriptor)
+[pid 53181] write(1, "\3\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\3\0\0\0", 4) = 4
+[pid 53169] read(20,  <unfinished ...>
+[pid 53181] <... write resumed> )       = 4
+[pid 53181] write(302, "here ctr a", 10) = -1 EBADF (Bad file descriptor)
+[pid 53181] write(1, "    \1 ", 6 <unfinished ...>
+[pid 53169] <... read resumed> "    \1 ", 6) = 6
+[pid 53169] read(20,  <unfinished ...>
+[pid 53181] <... write resumed> )       = 6
+[pid 53181] write(201, "calling getkey\0", 15) = -1 EBADF (Bad file descriptor)
+[pid 53181] write(302, "here get key a", 14) = -1 EBADF (Bad file descriptor)
+[pid 53181] write(1, "\1\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\1\0\0\0", 4) = 4
+[pid 53169] read(20,  <unfinished ...>
+[pid 53181] <... write resumed> )       = 4
+[pid 53181] write(302, "here get key b", 14) = -1 EBADF (Bad file descriptor)
+[pid 53181] write(1, "\0\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\0\0\0\0", 4) = 4
+[pid 53169] read(20,  <unfinished ...>
+[pid 53181] <... write resumed> )       = 4
+[pid 53181] write(99, "g", 1)           = -1 EBADF (Bad file descriptor)
+[pid 53181] write(302, "here get key c", 14) = -1 EBADF (Bad file descriptor)
+[pid 53181] write(1, "    \1 ", 6 <unfinished ...>
+[pid 53169] <... read resumed> "    \1 ", 6) = 6
+[pid 53169] write(303, "\1", 1)         = -1 EBADF (Bad file descriptor)
+[pid 53169] write(21, "j", 1)           = 1
+[pid 53169] read(20,  <unfinished ...>
+[pid 53181] <... write resumed> )       = 6
+[pid 53181] read(0, "j", 4)             = 1
+[pid 53181] write(201, "calling getkey\0", 15) = -1 EBADF (Bad file descriptor)
+[pid 53181] write(302, "here get key a", 14) = -1 EBADF (Bad file descriptor)
+[pid 53181] write(1, "\1\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\1\0\0\0", 4) = 4
+[pid 53169] read(20,  <unfinished ...>
+[pid 53181] <... write resumed> )       = 4
+[pid 53181] write(302, "here get key b", 14) = -1 EBADF (Bad file descriptor)
+[pid 53181] write(1, "\1\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\1\0\0\0", 4) = 4
+[pid 53169] read(20,  <unfinished ...>
+[pid 53181] <... write resumed> )       = 4
+[pid 53181] write(99, "g", 1)           = -1 EBADF (Bad file descriptor)
+[pid 53181] write(302, "here get key c", 14) = -1 EBADF (Bad file descriptor)
+[pid 53181] write(1, "    \1 ", 6 <unfinished ...>
+[pid 53169] <... read resumed> "    \1 ", 6) = 6
+[pid 53169] write(1, "test 4 success\n", 15) = 15
+[pid 53169] write(21, "Q", 1)           = 1
+[pid 53169] close(20)                   = 0
+[pid 53169] close(21)                   = 0
+[pid 53169] unlink("mymap.txt")         = 0
+[pid 53169] mknod("mymap.txt", S_IFIFO|0600) = 0
+[pid 53169] pipe([3, 4])                = 0
+[pid 53169] pipe([5, 6])                = 0
+[pid 53169] clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc0c940da10) = 53183
+[pid 53169] open("mymap.txt", O_WRONLY <unfinished ...>
+[pid 53181] <... write resumed> )       = 6
+strace: Process 53183 attached
+[pid 53183] close(3)                    = 0
+[pid 53183] close(6)                    = 0
+[pid 53183] dup2(5, 0)                  = 0
+[pid 53183] close(5)                    = 0
+[pid 53183] dup2(4, 1)                  = 1
+[pid 53183] close(4)                    = 0
+[pid 53183] write(2, "in child before execution : Bad "..., 48 <unfinished ...>
+[pid 53181] read(0, in child before execution : Bad file descriptor
+ <unfinished ...>
+[pid 53183] <... write resumed> )       = 48
+[pid 53183] execve("./test_prg", [""], [/* 61 vars */] <unfinished ...>
+[pid 53181] <... read resumed> "Q", 4)  = 1
+[pid 53181] munmap(0x7ff2f4ae6000, 32 <unfinished ...>
+[pid 53183] <... execve resumed> )      = 0
+[pid 53181] <... munmap resumed> )      = 0
+[pid 53181] unlink("/dev/shm/sem.semSHM") = 0
+[pid 53181] unlink("/dev/shm/mapSHM")   = 0
+[pid 53181] --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=0x7ff2f4ae6008} ---
+[pid 53183] brk(NULL)                   = 0x130d000
+[pid 53183] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53183] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb7a901b000
+[pid 53183] access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid 53183] open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+[pid 53183] fstat(3, {st_mode=S_IFREG|0644, st_size=97820, ...}) = 0
+[pid 53183] mmap(NULL, 97820, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fb7a9003000
+[pid 53183] close(3)                    = 0
+[pid 53183] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53183] open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+[pid 53183] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360`\0\0\0\0\0\0"..., 832) = 832
+[pid 53183] fstat(3, {st_mode=S_IFREG|0755, st_size=138744, ...}) = 0
+[pid 53183] mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fb7a8bdb000
+[pid 53183] mprotect(0x7fb7a8bf3000, 2093056, PROT_NONE) = 0
+[pid 53183] mmap(0x7fb7a8df2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fb7a8df2000
+[pid 53183] mmap(0x7fb7a8df4000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fb7a8df4000
+[pid 53183] close(3)                    = 0
+[pid 53183] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53183] open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+[pid 53183] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0!\0\0\0\0\0\0"..., 832) = 832
+[pid 53183] fstat(3, {st_mode=S_IFREG|0644, st_size=31712, ...}) = 0
+[pid 53183] mmap(NULL, 2128832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fb7a89d3000
+[pid 53183] mprotect(0x7fb7a89da000, 2093056, PROT_NONE) = 0
+[pid 53183] mmap(0x7fb7a8bd9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7fb7a8bd9000
+[pid 53183] close(3)                    = 0
+[pid 53183] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53183] open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+[pid 53183] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \235\10\0\0\0\0\0"..., 832) = 832
+[pid 53183] fstat(3, {st_mode=S_IFREG|0644, st_size=1566440, ...}) = 0
+[pid 53183] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb7a9002000
+[pid 53183] mmap(NULL, 3675136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fb7a8651000
+[pid 53183] mprotect(0x7fb7a87c3000, 2097152, PROT_NONE) = 0
+[pid 53183] mmap(0x7fb7a89c3000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x172000) = 0x7fb7a89c3000
+[pid 53183] mmap(0x7fb7a89cf000, 13312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fb7a89cf000
+[pid 53183] close(3)                    = 0
+[pid 53183] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53183] open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+[pid 53183] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p*\0\0\0\0\0\0"..., 832) = 832
+[pid 53183] fstat(3, {st_mode=S_IFREG|0644, st_size=89696, ...}) = 0
+[pid 53183] mmap(NULL, 2185488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fb7a843b000
+[pid 53183] mprotect(0x7fb7a8451000, 2093056, PROT_NONE) = 0
+[pid 53183] mmap(0x7fb7a8650000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7fb7a8650000
+[pid 53183] close(3)                    = 0
+[pid 53183] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53183] open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+[pid 53183] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+[pid 53183] fstat(3, {st_mode=S_IFREG|0755, st_size=1864888, ...}) = 0
+[pid 53183] mmap(NULL, 3967488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fb7a8072000
+[pid 53183] mprotect(0x7fb7a8232000, 2093056, PROT_NONE) = 0
+[pid 53183] mmap(0x7fb7a8431000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bf000) = 0x7fb7a8431000
+[pid 53183] mmap(0x7fb7a8437000, 14848, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fb7a8437000
+[pid 53183] close(3)                    = 0
+[pid 53183] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53183] open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+[pid 53183] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0"..., 832) = 832
+[pid 53183] fstat(3, {st_mode=S_IFREG|0644, st_size=1088952, ...}) = 0
+[pid 53183] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb7a9001000
+[pid 53183] mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fb7a7d69000
+[pid 53183] mprotect(0x7fb7a7e71000, 2093056, PROT_NONE) = 0
+[pid 53183] mmap(0x7fb7a8070000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x107000) = 0x7fb7a8070000
+[pid 53183] close(3)                    = 0
+[pid 53183] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb7a9000000
+[pid 53183] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb7a8ffe000
+[pid 53183] arch_prctl(ARCH_SET_FS, 0x7fb7a8ffe740) = 0
+[pid 53183] mprotect(0x7fb7a8431000, 16384, PROT_READ) = 0
+[pid 53183] mprotect(0x7fb7a8070000, 4096, PROT_READ) = 0
+[pid 53183] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb7a8ffd000
+[pid 53183] mprotect(0x7fb7a89c3000, 40960, PROT_READ) = 0
+[pid 53183] mprotect(0x7fb7a8df2000, 4096, PROT_READ) = 0
+[pid 53183] mprotect(0x7fb7a8bd9000, 4096, PROT_READ) = 0
+[pid 53183] mprotect(0x603000, 4096, PROT_READ) = 0
+[pid 53183] mprotect(0x7fb7a901d000, 4096, PROT_READ) = 0
+[pid 53183] munmap(0x7fb7a9003000, 97820) = 0
+[pid 53183] set_tid_address(0x7fb7a8ffea10) = 53183
+[pid 53183] set_robust_list(0x7fb7a8ffea20, 24) = 0
+[pid 53183] rt_sigaction(SIGRTMIN, {0x7fb7a8be0b90, [], SA_RESTORER|SA_SIGINFO, 0x7fb7a8bec3d0}, NULL, 8) = 0
+[pid 53183] rt_sigaction(SIGRT_1, {0x7fb7a8be0c20, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7fb7a8bec3d0}, NULL, 8) = 0
+[pid 53183] rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+[pid 53183] getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+[pid 53183] brk(NULL)                   = 0x130d000
+[pid 53183] brk(0x133f000)              = 0x133f000
+[pid 53183] futex(0x7fb7a89d01ac, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+[pid 53183] futex(0x7fb7a89d01b8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+[pid 53183] write(302, "reading map differently", 23) = -1 EBADF (Bad file descriptor)
+[pid 53183] write(302, "Here111\0", 8)  = -1 EBADF (Bad file descriptor)
+[pid 53183] write(302, "Here!!!\0", 8)  = -1 EBADF (Bad file descriptor)
+[pid 53183] statfs("/dev/shm/", {f_type="TMPFS_MAGIC", f_bsize=4096, f_blocks=253811, f_bfree=245381, f_bavail=245381, f_files=253811, f_ffree=253779, f_fsid={0, 0}, f_namelen=255, f_frsize=4096, f_flags=38}) = 0
+[pid 53183] futex(0x7fb7a8df7310, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+[pid 53183] lstat("/dev/shm/gFnBqR", 0x7fffd0b18740) = -1 ENOENT (No such file or directory)
+[pid 53183] open("/dev/shm/gFnBqR", O_RDWR|O_CREAT|O_EXCL, 0666) = 3
+[pid 53183] write(3, "\1\0\0\0\0\0\0\0\200\0\0\0\267\177\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 32) = 32
+[pid 53183] mmap(NULL, 32, PROT_READ|PROT_WRITE, MAP_SHARED, 3, 0) = 0x7fb7a901a000
+[pid 53183] link("/dev/shm/gFnBqR", "/dev/shm/sem.semSHM") = 0
+[pid 53183] fstat(3, {st_mode=S_IFREG|0664, st_size=32, ...}) = 0
+[pid 53183] unlink("/dev/shm/gFnBqR")   = 0
+[pid 53183] close(3)                    = 0
+[pid 53183] write(305, "my message", 10) = -1 EBADF (Bad file descriptor)
+[pid 53183] write(302, "Here!!!\0", 8)  = -1 EBADF (Bad file descriptor)
+[pid 53183] open("mymap.txt", O_RDONLY <unfinished ...>
+[pid 53169] <... open resumed> )        = 7
+[pid 53169] write(302, "my place", 8)   = -1 EBADF (Bad file descriptor)
+[pid 53169] write(7, "1\n****\n*  *\n****\n", 17) = 17
+[pid 53169] close(7)                    = 0
+[pid 53169] close(4)                    = 0
+[pid 53169] close(5)                    = 0
+[pid 53169] dup2(6, 21)                 = 21
+[pid 53169] close(6)                    = 0
+[pid 53169] dup2(3, 20)                 = 20
+[pid 53169] close(3)                    = 0
+[pid 53169] read(20,  <unfinished ...>
+[pid 53183] <... open resumed> )        = 3
+[pid 53183] write(302, "Here2\0", 6)    = -1 EBADF (Bad file descriptor)
+[pid 53183] read(3, "1\n****\n*  *\n****\n", 8191) = 17
+[pid 53183] read(3, "", 8191)           = 0
+[pid 53183] close(3)                    = 0
+[pid 53183] open("/dev/shm/mapSHM", O_RDWR|O_CREAT|O_NOFOLLOW|O_CLOEXEC, 0600) = 3
+[pid 53183] ftruncate(3, 24)            = 0
+[pid 53183] mmap(NULL, 24, PROT_READ|PROT_WRITE, MAP_SHARED, 3, 0) = 0x7fb7a9019000
+[pid 53183] write(201, "calling constructor\0", 20) = -1 EBADF (Bad file descriptor)
+[pid 53183] write(302, "\3\0\0\0", 4)   = -1 EBADF (Bad file descriptor)
+[pid 53183] write(1, "\3\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\3\0\0\0", 4) = 4
+[pid 53169] read(20,  <unfinished ...>
+[pid 53183] <... write resumed> )       = 4
+[pid 53183] write(302, "\4\0\0\0", 4)   = -1 EBADF (Bad file descriptor)
+[pid 53183] write(1, "\4\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\4\0\0\0", 4) = 4
+[pid 53169] read(20,  <unfinished ...>
+[pid 53183] <... write resumed> )       = 4
+[pid 53183] write(302, "here ctr a", 10) = -1 EBADF (Bad file descriptor)
+[pid 53183] write(1, "     @\1     ", 12 <unfinished ...>
+[pid 53169] <... read resumed> "     @\1     ", 12) = 12
+[pid 53169] read(20,  <unfinished ...>
+[pid 53183] <... write resumed> )       = 12
+[pid 53183] write(201, "calling getkey\0", 15) = -1 EBADF (Bad file descriptor)
+[pid 53183] write(302, "here get key a", 14) = -1 EBADF (Bad file descriptor)
+[pid 53183] write(1, "\1\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\1\0\0\0", 4) = 4
+[pid 53169] read(20,  <unfinished ...>
+[pid 53183] <... write resumed> )       = 4
+[pid 53183] write(302, "here get key b", 14) = -1 EBADF (Bad file descriptor)
+[pid 53183] write(1, "\0\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\0\0\0\0", 4) = 4
+[pid 53169] read(20,  <unfinished ...>
+[pid 53183] <... write resumed> )       = 4
+[pid 53183] write(99, "g", 1)           = -1 EBADF (Bad file descriptor)
+[pid 53183] write(302, "here get key c", 14) = -1 EBADF (Bad file descriptor)
+[pid 53183] write(1, "     @\1     ", 12 <unfinished ...>
+[pid 53169] <... read resumed> "     @\1     ", 12) = 12
+[pid 53169] write(303, "@", 1)          = -1 EBADF (Bad file descriptor)
+[pid 53169] write(21, "h", 1)           = 1
+[pid 53169] read(20,  <unfinished ...>
+[pid 53183] <... write resumed> )       = 12
+[pid 53183] read(0, "h", 4)             = 1
+[pid 53183] write(201, "calling getkey\0", 15) = -1 EBADF (Bad file descriptor)
+[pid 53183] write(302, "here get key a", 14) = -1 EBADF (Bad file descriptor)
+[pid 53183] write(1, "\2\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\2\0\0\0", 4) = 4
+[pid 53169] read(20,  <unfinished ...>
+[pid 53183] <... write resumed> )       = 4
+[pid 53183] write(302, "here get key b", 14) = -1 EBADF (Bad file descriptor)
+[pid 53183] write(1, "\1\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\1\0\0\0", 4) = 4
+[pid 53169] read(20,  <unfinished ...>
+[pid 53183] <... write resumed> )       = 4
+[pid 53183] write(99, "g", 1)           = -1 EBADF (Bad file descriptor)
+[pid 53183] write(302, "here get key c", 14) = -1 EBADF (Bad file descriptor)
+[pid 53183] write(1, "     A\0     ", 12 <unfinished ...>
+[pid 53169] <... read resumed> "     A\0     ", 12) = 12
+[pid 53169] write(1, "test 3 success 2\n", 17) = 17
+[pid 53169] write(21, "Q", 1)           = 1
+[pid 53169] close(20)                   = 0
+[pid 53169] close(21)                   = 0
+[pid 53169] unlink("mymap.txt")         = 0
+[pid 53169] mknod("mymap.txt", S_IFIFO|0600) = 0
+[pid 53169] pipe([3, 4])                = 0
+[pid 53169] pipe([5, 6])                = 0
+[pid 53169] clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc0c940da10) = 53186
+[pid 53169] open("mymap.txt", O_WRONLY <unfinished ...>
+[pid 53183] <... write resumed> )       = 12
+[pid 53183] read(0, "Q", 4)             = 1
+[pid 53183] munmap(0x7fb7a901a000, 32)  = 0
+[pid 53183] unlink("/dev/shm/sem.semSHM") = 0
+[pid 53183] unlink("/dev/shm/mapSHM")   = 0
+[pid 53183] --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=0x7fb7a901a008} ---
+strace: Process 53186 attached
+[pid 53186] close(3)                    = 0
+[pid 53186] close(6)                    = 0
+[pid 53186] dup2(5, 0)                  = 0
+[pid 53186] close(5)                    = 0
+[pid 53186] dup2(4, 1)                  = 1
+[pid 53186] close(4)                    = 0
+[pid 53186] execve("./test_prg", [""], [/* 61 vars */]) = 0
+[pid 53186] brk(NULL)                   = 0x20b8000
+[pid 53186] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53186] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f48fe4ee000
+[pid 53186] access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid 53186] open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+[pid 53186] fstat(3, {st_mode=S_IFREG|0644, st_size=97820, ...}) = 0
+[pid 53186] mmap(NULL, 97820, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f48fe4d6000
+[pid 53186] close(3)                    = 0
+[pid 53186] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53186] open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+[pid 53186] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360`\0\0\0\0\0\0"..., 832) = 832
+[pid 53186] fstat(3, {st_mode=S_IFREG|0755, st_size=138744, ...}) = 0
+[pid 53186] mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f48fe0ae000
+[pid 53186] mprotect(0x7f48fe0c6000, 2093056, PROT_NONE) = 0
+[pid 53186] mmap(0x7f48fe2c5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f48fe2c5000
+[pid 53186] mmap(0x7f48fe2c7000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f48fe2c7000
+[pid 53186] close(3)                    = 0
+[pid 53186] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53186] open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+[pid 53186] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0!\0\0\0\0\0\0"..., 832) = 832
+[pid 53186] fstat(3, {st_mode=S_IFREG|0644, st_size=31712, ...}) = 0
+[pid 53186] mmap(NULL, 2128832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f48fdea6000
+[pid 53186] mprotect(0x7f48fdead000, 2093056, PROT_NONE) = 0
+[pid 53186] mmap(0x7f48fe0ac000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f48fe0ac000
+[pid 53186] close(3)                    = 0
+[pid 53186] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53186] open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+[pid 53186] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \235\10\0\0\0\0\0"..., 832) = 832
+[pid 53186] fstat(3, {st_mode=S_IFREG|0644, st_size=1566440, ...}) = 0
+[pid 53186] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f48fe4d5000
+[pid 53186] mmap(NULL, 3675136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f48fdb24000
+[pid 53186] mprotect(0x7f48fdc96000, 2097152, PROT_NONE) = 0
+[pid 53186] mmap(0x7f48fde96000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x172000) = 0x7f48fde96000
+[pid 53186] mmap(0x7f48fdea2000, 13312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f48fdea2000
+[pid 53186] close(3)                    = 0
+[pid 53186] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53186] open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+[pid 53186] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p*\0\0\0\0\0\0"..., 832) = 832
+[pid 53186] fstat(3, {st_mode=S_IFREG|0644, st_size=89696, ...}) = 0
+[pid 53186] mmap(NULL, 2185488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f48fd90e000
+[pid 53186] mprotect(0x7f48fd924000, 2093056, PROT_NONE) = 0
+[pid 53186] mmap(0x7f48fdb23000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7f48fdb23000
+[pid 53186] close(3)                    = 0
+[pid 53186] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53186] open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+[pid 53186] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+[pid 53186] fstat(3, {st_mode=S_IFREG|0755, st_size=1864888, ...}) = 0
+[pid 53186] mmap(NULL, 3967488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f48fd545000
+[pid 53186] mprotect(0x7f48fd705000, 2093056, PROT_NONE) = 0
+[pid 53186] mmap(0x7f48fd904000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bf000) = 0x7f48fd904000
+[pid 53186] mmap(0x7f48fd90a000, 14848, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f48fd90a000
+[pid 53186] close(3)                    = 0
+[pid 53186] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53186] open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+[pid 53186] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0"..., 832) = 832
+[pid 53186] fstat(3, {st_mode=S_IFREG|0644, st_size=1088952, ...}) = 0
+[pid 53186] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f48fe4d4000
+[pid 53186] mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f48fd23c000
+[pid 53186] mprotect(0x7f48fd344000, 2093056, PROT_NONE) = 0
+[pid 53186] mmap(0x7f48fd543000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x107000) = 0x7f48fd543000
+[pid 53186] close(3)                    = 0
+[pid 53186] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f48fe4d3000
+[pid 53186] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f48fe4d1000
+[pid 53186] arch_prctl(ARCH_SET_FS, 0x7f48fe4d1740) = 0
+[pid 53186] mprotect(0x7f48fd904000, 16384, PROT_READ) = 0
+[pid 53186] mprotect(0x7f48fd543000, 4096, PROT_READ) = 0
+[pid 53186] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f48fe4d0000
+[pid 53186] mprotect(0x7f48fde96000, 40960, PROT_READ) = 0
+[pid 53186] mprotect(0x7f48fe2c5000, 4096, PROT_READ) = 0
+[pid 53186] mprotect(0x7f48fe0ac000, 4096, PROT_READ) = 0
+[pid 53186] mprotect(0x603000, 4096, PROT_READ) = 0
+[pid 53186] mprotect(0x7f48fe4f0000, 4096, PROT_READ) = 0
+[pid 53186] munmap(0x7f48fe4d6000, 97820) = 0
+[pid 53186] set_tid_address(0x7f48fe4d1a10) = 53186
+[pid 53186] set_robust_list(0x7f48fe4d1a20, 24) = 0
+[pid 53186] rt_sigaction(SIGRTMIN, {0x7f48fe0b3b90, [], SA_RESTORER|SA_SIGINFO, 0x7f48fe0bf3d0}, NULL, 8) = 0
+[pid 53186] rt_sigaction(SIGRT_1, {0x7f48fe0b3c20, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f48fe0bf3d0}, NULL, 8) = 0
+[pid 53186] rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+[pid 53186] getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+[pid 53186] brk(NULL)                   = 0x20b8000
+[pid 53186] brk(0x20ea000)              = 0x20ea000
+[pid 53186] futex(0x7f48fdea31ac, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+[pid 53186] futex(0x7f48fdea31b8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+[pid 53186] write(302, "reading map differently", 23) = -1 EBADF (Bad file descriptor)
+[pid 53186] write(302, "Here111\0", 8)  = -1 EBADF (Bad file descriptor)
+[pid 53186] write(302, "Here!!!\0", 8)  = -1 EBADF (Bad file descriptor)
+[pid 53186] statfs("/dev/shm/", {f_type="TMPFS_MAGIC", f_bsize=4096, f_blocks=253811, f_bfree=245380, f_bavail=245380, f_files=253811, f_ffree=253778, f_fsid={0, 0}, f_namelen=255, f_frsize=4096, f_flags=38}) = 0
+[pid 53186] futex(0x7f48fe2ca310, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+[pid 53186] lstat("/dev/shm/BHIHf0", 0x7ffc84efe020) = -1 ENOENT (No such file or directory)
+[pid 53186] open("/dev/shm/BHIHf0", O_RDWR|O_CREAT|O_EXCL, 0666) = 3
+[pid 53186] write(3, "\1\0\0\0\0\0\0\0\200\0\0\0H\177\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 32) = 32
+[pid 53186] mmap(NULL, 32, PROT_READ|PROT_WRITE, MAP_SHARED, 3, 0) = 0x7f48fe4ed000
+[pid 53186] link("/dev/shm/BHIHf0", "/dev/shm/sem.semSHM") = 0
+[pid 53186] fstat(3, {st_mode=S_IFREG|0664, st_size=32, ...}) = 0
+[pid 53186] unlink("/dev/shm/BHIHf0")   = 0
+[pid 53186] close(3)                    = 0
+[pid 53186] write(305, "my message", 10) = -1 EBADF (Bad file descriptor)
+[pid 53186] write(302, "Here!!!\0", 8)  = -1 EBADF (Bad file descriptor)
+[pid 53186] open("mymap.txt", O_RDONLY <unfinished ...>
+[pid 53169] <... open resumed> )        = 7
+[pid 53186] <... open resumed> )        = 3
+[pid 53169] write(7, "0\n****\n*  *\n****\n", 17) = 17
+[pid 53186] write(302, "Here2\0", 6 <unfinished ...>
+[pid 53169] close(7 <unfinished ...>
+[pid 53186] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] <... close resumed> )       = 0
+[pid 53169] close(4 <unfinished ...>
+[pid 53186] read(3,  <unfinished ...>
+[pid 53169] <... close resumed> )       = 0
+[pid 53186] <... read resumed> "0\n****\n*  *\n****\n", 8191) = 17
+[pid 53169] close(5)                    = 0
+[pid 53186] read(3,  <unfinished ...>
+[pid 53169] dup2(6, 21 <unfinished ...>
+[pid 53186] <... read resumed> "", 8191) = 0
+[pid 53169] <... dup2 resumed> )        = 21
+[pid 53169] close(6 <unfinished ...>
+[pid 53186] close(3 <unfinished ...>
+[pid 53169] <... close resumed> )       = 0
+[pid 53186] <... close resumed> )       = 0
+[pid 53169] dup2(3, 20)                 = 20
+[pid 53186] open("/dev/shm/mapSHM", O_RDWR|O_CREAT|O_NOFOLLOW|O_CLOEXEC, 0600 <unfinished ...>
+[pid 53169] close(3)                    = 0
+[pid 53186] <... open resumed> )        = 3
+[pid 53169] read(20,  <unfinished ...>
+[pid 53186] ftruncate(3, 24)            = 0
+[pid 53186] mmap(NULL, 24, PROT_READ|PROT_WRITE, MAP_SHARED, 3, 0) = 0x7f48fe4ec000
+[pid 53186] write(201, "calling constructor\0", 20) = -1 EBADF (Bad file descriptor)
+[pid 53186] write(302, "\3\0\0\0", 4)   = -1 EBADF (Bad file descriptor)
+[pid 53186] write(1, "\3\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\3\0\0\0", 4) = 4
+[pid 53186] <... write resumed> )       = 4
+[pid 53169] read(20,  <unfinished ...>
+[pid 53186] write(302, "\4\0\0\0", 4)   = -1 EBADF (Bad file descriptor)
+[pid 53186] write(1, "\4\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\4\0\0\0", 4) = 4
+[pid 53186] <... write resumed> )       = 4
+[pid 53169] read(20,  <unfinished ...>
+[pid 53186] write(302, "here ctr a", 10) = -1 EBADF (Bad file descriptor)
+[pid 53186] write(1, "     \1\0     ", 12 <unfinished ...>
+[pid 53169] <... read resumed> "     \1\0     ", 12) = 12
+[pid 53186] <... write resumed> )       = 12
+[pid 53169] write(88, "test 2 A", 8 <unfinished ...>
+[pid 53186] write(201, "calling getkey\0", 15 <unfinished ...>
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53186] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] read(20,  <unfinished ...>
+[pid 53186] write(302, "here get key a", 14) = -1 EBADF (Bad file descriptor)
+[pid 53186] write(1, "\1\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\1\0\0\0", 4) = 4
+[pid 53186] <... write resumed> )       = 4
+[pid 53169] write(88, "test 2 B", 8 <unfinished ...>
+[pid 53186] write(302, "here get key b", 14 <unfinished ...>
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53186] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] read(20,  <unfinished ...>
+[pid 53186] write(1, "\0\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\0\0\0\0", 4) = 4
+[pid 53186] <... write resumed> )       = 4
+[pid 53169] write(99, "a", 1 <unfinished ...>
+[pid 53186] write(99, "g", 1 <unfinished ...>
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53186] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] write(88, "test 2 c", 8 <unfinished ...>
+[pid 53186] write(302, "here get key c", 14 <unfinished ...>
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53186] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] read(20,  <unfinished ...>
+[pid 53186] write(1, "     \1\0     ", 12 <unfinished ...>
+[pid 53169] <... read resumed> "     \1\0     ", 12) = 12
+[pid 53186] <... write resumed> )       = 12
+[pid 53169] write(21, "l", 1 <unfinished ...>
+[pid 53186] read(0,  <unfinished ...>
+[pid 53169] <... write resumed> )       = 1
+[pid 53186] <... read resumed> "l", 4)  = 1
+[pid 53169] write(88, "test 2 d", 8 <unfinished ...>
+[pid 53186] write(201, "calling getkey\0", 15 <unfinished ...>
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53186] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] read(20,  <unfinished ...>
+[pid 53186] write(302, "here get key a", 14) = -1 EBADF (Bad file descriptor)
+[pid 53186] write(1, "\1\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\1\0\0\0", 4) = 4
+[pid 53186] <... write resumed> )       = 4
+[pid 53169] write(88, "test 2 e", 8 <unfinished ...>
+[pid 53186] write(302, "here get key b", 14 <unfinished ...>
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53186] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] read(20,  <unfinished ...>
+[pid 53186] write(1, "\1\0\0\0", 4 <unfinished ...>
+[pid 53169] <... read resumed> "\1\0\0\0", 4) = 4
+[pid 53186] <... write resumed> )       = 4
+[pid 53169] write(88, "test 2 f", 8 <unfinished ...>
+[pid 53186] write(99, "g", 1 <unfinished ...>
+[pid 53169] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53186] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] read(20,  <unfinished ...>
+[pid 53186] write(302, "here get key c", 14) = -1 EBADF (Bad file descriptor)
+[pid 53186] write(1, "     \0\1     ", 12 <unfinished ...>
+[pid 53169] <... read resumed> "     \0\1     ", 12) = 12
+[pid 53186] <... write resumed> )       = 12
+[pid 53169] write(1, "test 2 success\n", 15 <unfinished ...>
+[pid 53186] read(0,  <unfinished ...>
+[pid 53169] <... write resumed> )       = 15
+[pid 53169] write(21, "Q", 1)           = 1
+[pid 53186] <... read resumed> "Q", 4)  = 1
+[pid 53169] close(20)                   = 0
+[pid 53186] munmap(0x7f48fe4ed000, 32 <unfinished ...>
+[pid 53169] close(21)                   = 0
+[pid 53186] <... munmap resumed> )      = 0
+[pid 53169] unlink("mymap.txt" <unfinished ...>
+[pid 53186] unlink("/dev/shm/sem.semSHM" <unfinished ...>
+[pid 53169] <... unlink resumed> )      = 0
+[pid 53186] <... unlink resumed> )      = 0
+[pid 53169] mknod("mymap.txt", S_IFIFO|0600 <unfinished ...>
+[pid 53186] unlink("/dev/shm/mapSHM" <unfinished ...>
+[pid 53169] <... mknod resumed> )       = 0
+[pid 53186] <... unlink resumed> )      = 0
+[pid 53169] pipe( <unfinished ...>
+[pid 53186] --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=0x7f48fe4ed008} ---
+[pid 53169] <... pipe resumed> [3, 4])  = 0
+[pid 53169] pipe([5, 6])                = 0
+[pid 53169] clone(strace: Process 53189 attached
+ <unfinished ...>
+[pid 53189] close(3)                    = 0
+[pid 53189] close(6)                    = 0
+[pid 53189] dup2(5, 0)                  = 0
+[pid 53189] close(5)                    = 0
+[pid 53189] dup2(4, 1)                  = 1
+[pid 53189] close(4)                    = 0
+[pid 53189] execve("./test_prg", [""], [/* 61 vars */]) = 0
+[pid 53189] brk(NULL)                   = 0xb9f000
+[pid 53189] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53189] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8c00e3f000
+[pid 53189] access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+[pid 53189] open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+[pid 53189] fstat(3, {st_mode=S_IFREG|0644, st_size=97820, ...}) = 0
+[pid 53189] mmap(NULL, 97820, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f8c00e27000
+[pid 53189] close(3)                    = 0
+[pid 53189] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53189] open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+[pid 53189] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360`\0\0\0\0\0\0"..., 832) = 832
+[pid 53189] fstat(3, {st_mode=S_IFREG|0755, st_size=138744, ...}) = 0
+[pid 53189] mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8c009ff000
+[pid 53189] mprotect(0x7f8c00a17000, 2093056, PROT_NONE) = 0
+[pid 53189] mmap(0x7f8c00c16000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f8c00c16000
+[pid 53189] mmap(0x7f8c00c18000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f8c00c18000
+[pid 53189] close(3)                    = 0
+[pid 53189] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53189] open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+[pid 53189] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0!\0\0\0\0\0\0"..., 832) = 832
+[pid 53189] fstat(3, {st_mode=S_IFREG|0644, st_size=31712, ...}) = 0
+[pid 53189] mmap(NULL, 2128832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8c007f7000
+[pid 53189] mprotect(0x7f8c007fe000, 2093056, PROT_NONE) = 0
+[pid 53189] mmap(0x7f8c009fd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f8c009fd000
+[pid 53189] close(3)                    = 0
+[pid 53189] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53189] open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+[pid 53189] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \235\10\0\0\0\0\0"..., 832) = 832
+[pid 53189] fstat(3, {st_mode=S_IFREG|0644, st_size=1566440, ...}) = 0
+[pid 53189] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8c00e26000
+[pid 53189] mmap(NULL, 3675136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8c00475000
+[pid 53189] mprotect(0x7f8c005e7000, 2097152, PROT_NONE) = 0
+[pid 53189] mmap(0x7f8c007e7000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x172000) = 0x7f8c007e7000
+[pid 53189] mmap(0x7f8c007f3000, 13312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f8c007f3000
+[pid 53189] close(3)                    = 0
+[pid 53189] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53189] open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC <unfinished ...>
+[pid 53169] <... clone resumed> child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc0c940da10) = 53189
+[pid 53189] <... open resumed> )        = 3
+[pid 53169] open("mymap.txt", O_WRONLY <unfinished ...>
+[pid 53189] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p*\0\0\0\0\0\0"..., 832) = 832
+[pid 53189] fstat(3, {st_mode=S_IFREG|0644, st_size=89696, ...}) = 0
+[pid 53189] mmap(NULL, 2185488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8c0025f000
+[pid 53189] mprotect(0x7f8c00275000, 2093056, PROT_NONE) = 0
+[pid 53189] mmap(0x7f8c00474000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7f8c00474000
+[pid 53189] close(3)                    = 0
+[pid 53189] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53189] open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+[pid 53189] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+[pid 53189] fstat(3, {st_mode=S_IFREG|0755, st_size=1864888, ...}) = 0
+[pid 53189] mmap(NULL, 3967488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8bffe96000
+[pid 53189] mprotect(0x7f8c00056000, 2093056, PROT_NONE) = 0
+[pid 53189] mmap(0x7f8c00255000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bf000) = 0x7f8c00255000
+[pid 53189] mmap(0x7f8c0025b000, 14848, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f8c0025b000
+[pid 53189] close(3)                    = 0
+[pid 53189] access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+[pid 53189] open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+[pid 53189] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0"..., 832) = 832
+[pid 53189] fstat(3, {st_mode=S_IFREG|0644, st_size=1088952, ...}) = 0
+[pid 53189] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8c00e25000
+[pid 53189] mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8bffb8d000
+[pid 53189] mprotect(0x7f8bffc95000, 2093056, PROT_NONE) = 0
+[pid 53189] mmap(0x7f8bffe94000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x107000) = 0x7f8bffe94000
+[pid 53189] close(3)                    = 0
+[pid 53189] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8c00e24000
+[pid 53189] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8c00e22000
+[pid 53189] arch_prctl(ARCH_SET_FS, 0x7f8c00e22740) = 0
+[pid 53189] mprotect(0x7f8c00255000, 16384, PROT_READ) = 0
+[pid 53189] mprotect(0x7f8bffe94000, 4096, PROT_READ) = 0
+[pid 53189] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8c00e21000
+[pid 53189] mprotect(0x7f8c007e7000, 40960, PROT_READ) = 0
+[pid 53189] mprotect(0x7f8c00c16000, 4096, PROT_READ) = 0
+[pid 53189] mprotect(0x7f8c009fd000, 4096, PROT_READ) = 0
+[pid 53189] mprotect(0x603000, 4096, PROT_READ) = 0
+[pid 53189] mprotect(0x7f8c00e41000, 4096, PROT_READ) = 0
+[pid 53189] munmap(0x7f8c00e27000, 97820) = 0
+[pid 53189] set_tid_address(0x7f8c00e22a10) = 53189
+[pid 53189] set_robust_list(0x7f8c00e22a20, 24) = 0
+[pid 53189] rt_sigaction(SIGRTMIN, {0x7f8c00a04b90, [], SA_RESTORER|SA_SIGINFO, 0x7f8c00a103d0}, NULL, 8) = 0
+[pid 53189] rt_sigaction(SIGRT_1, {0x7f8c00a04c20, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f8c00a103d0}, NULL, 8) = 0
+[pid 53189] rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+[pid 53189] getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+[pid 53189] brk(NULL)                   = 0xb9f000
+[pid 53189] brk(0xbd1000)               = 0xbd1000
+[pid 53189] futex(0x7f8c007f41ac, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+[pid 53189] futex(0x7f8c007f41b8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+[pid 53189] write(302, "reading map differently", 23) = -1 EBADF (Bad file descriptor)
+[pid 53189] write(302, "Here111\0", 8)  = -1 EBADF (Bad file descriptor)
+[pid 53189] write(302, "Here!!!\0", 8)  = -1 EBADF (Bad file descriptor)
+[pid 53189] statfs("/dev/shm/", {f_type="TMPFS_MAGIC", f_bsize=4096, f_blocks=253811, f_bfree=245379, f_bavail=245379, f_files=253811, f_ffree=253777, f_fsid={0, 0}, f_namelen=255, f_frsize=4096, f_flags=38}) = 0
+[pid 53189] futex(0x7f8c00c1b310, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+[pid 53189] lstat("/dev/shm/swtZp5", 0x7ffc08b0fa60) = -1 ENOENT (No such file or directory)
+[pid 53189] open("/dev/shm/swtZp5", O_RDWR|O_CREAT|O_EXCL, 0666) = 3
+[pid 53189] write(3, "\1\0\0\0\0\0\0\0\200\0\0\0\214\177\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 32) = 32
+[pid 53189] mmap(NULL, 32, PROT_READ|PROT_WRITE, MAP_SHARED, 3, 0) = 0x7f8c00e3e000
+[pid 53189] link("/dev/shm/swtZp5", "/dev/shm/sem.semSHM") = 0
+[pid 53189] fstat(3, {st_mode=S_IFREG|0664, st_size=32, ...}) = 0
+[pid 53189] unlink("/dev/shm/swtZp5")   = 0
+[pid 53189] close(3)                    = 0
+[pid 53189] write(305, "my message", 10) = -1 EBADF (Bad file descriptor)
+[pid 53189] write(302, "Here!!!\0", 8)  = -1 EBADF (Bad file descriptor)
+[pid 53189] open("mymap.txt", O_RDONLY) = 3
+[pid 53169] <... open resumed> )        = 7
+[pid 53169] write(7, "0\n***\n* *\n***\n", 14 <unfinished ...>
+[pid 53189] write(302, "Here2\0", 6 <unfinished ...>
+[pid 53169] <... write resumed> )       = 14
+[pid 53189] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53169] close(7)                    = 0
+[pid 53189] read(3,  <unfinished ...>
+[pid 53169] close(4)                    = 0
+[pid 53189] <... read resumed> "0\n***\n* *\n***\n", 8191) = 14
+[pid 53169] close(5)                    = 0
+[pid 53189] read(3,  <unfinished ...>
+[pid 53169] dup2(6, 21)                 = 21
+[pid 53189] <... read resumed> "", 8191) = 0
+[pid 53169] close(6)                    = 0
+[pid 53189] close(3 <unfinished ...>
+[pid 53169] dup2(3, 20)                 = 20
+[pid 53189] <... close resumed> )       = 0
+[pid 53169] close(3)                    = 0
+[pid 53189] open("/dev/shm/mapSHM", O_RDWR|O_CREAT|O_NOFOLLOW|O_CLOEXEC, 0600 <unfinished ...>
+[pid 53169] read(20,  <unfinished ...>
+[pid 53189] <... open resumed> )        = 3
+[pid 53189] ftruncate(3, 21)            = 0
+[pid 53189] mmap(NULL, 21, PROT_READ|PROT_WRITE, MAP_SHARED, 3, 0) = 0x7f8c00e3d000
+[pid 53189] write(201, "calling constructor\0", 20) = -1 EBADF (Bad file descriptor)
+[pid 53189] write(302, "\3\0\0\0", 4)   = -1 EBADF (Bad file descriptor)
+[pid 53189] write(1, "\3\0\0\0", 4)     = 4
+[pid 53169] <... read resumed> "\3\0\0\0", 4) = 4
+[pid 53189] write(302, "\3\0\0\0", 4 <unfinished ...>
+[pid 53169] read(20,  <unfinished ...>
+[pid 53189] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53189] write(1, "\3\0\0\0", 4)     = 4
+[pid 53169] <... read resumed> "\3\0\0\0", 4) = 4
+[pid 53189] write(302, "here ctr a", 10 <unfinished ...>
+[pid 53169] read(20,  <unfinished ...>
+[pid 53189] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53189] write(1, "    \1    ", 9)   = 9
+[pid 53169] <... read resumed> "    \1    ", 9) = 9
+[pid 53189] write(201, "calling getkey\0", 15 <unfinished ...>
+[pid 53169] read(20,  <unfinished ...>
+[pid 53189] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53189] write(302, "here get key a", 14) = -1 EBADF (Bad file descriptor)
+[pid 53189] write(1, "\1\0\0\0", 4)     = 4
+[pid 53169] <... read resumed> "\1\0\0\0", 4) = 4
+[pid 53189] write(302, "here get key b", 14 <unfinished ...>
+[pid 53169] read(20,  <unfinished ...>
+[pid 53189] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53189] write(1, "\0\0\0\0", 4)     = 4
+[pid 53169] <... read resumed> "\0\0\0\0", 4) = 4
+[pid 53189] write(99, "g", 1 <unfinished ...>
+[pid 53169] read(20,  <unfinished ...>
+[pid 53189] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53189] write(302, "here get key c", 14) = -1 EBADF (Bad file descriptor)
+[pid 53189] write(1, "    \1    ", 9)   = 9
+[pid 53169] <... read resumed> "    \1    ", 9) = 9
+[pid 53169] write(21, "h", 1 <unfinished ...>
+[pid 53189] read(0,  <unfinished ...>
+[pid 53169] <... write resumed> )       = 1
+[pid 53169] read(20,  <unfinished ...>
+[pid 53189] <... read resumed> "h", 4)  = 1
+[pid 53189] write(201, "calling getkey\0", 15) = -1 EBADF (Bad file descriptor)
+[pid 53189] write(302, "here get key a", 14) = -1 EBADF (Bad file descriptor)
+[pid 53189] write(1, "\1\0\0\0", 4)     = 4
+[pid 53169] <... read resumed> "\1\0\0\0", 4) = 4
+[pid 53189] write(302, "here get key b", 14 <unfinished ...>
+[pid 53169] read(20,  <unfinished ...>
+[pid 53189] <... write resumed> )       = -1 EBADF (Bad file descriptor)
+[pid 53176] +++ killed by SIGSEGV (core dumped) +++
+[pid 53189] write(1, "\1\0\0\0", 4)     = 4
+[pid 53189] write(99, "g", 1)           = -1 EBADF (Bad file descriptor)
+[pid 53189] write(302, "here get key c", 14) = -1 EBADF (Bad file descriptor)
+[pid 53189] write(1, "    \1    ", 9)   = 9
+[pid 53189] read(0,  <unfinished ...>
+[pid 53169] <... read resumed> "\1\0\0\0", 4) = 4
+[pid 53169] --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_DUMPED, si_pid=53176, si_uid=1000, si_status=SIGSEGV, si_utime=0, si_stime=0} ---
+[pid 53169] read(20, "    \1    ", 9)   = 9
+[pid 53169] write(1, "test 1 was successful\n", 22) = 22
+[pid 53169] write(21, "Q", 1)           = 1
+[pid 53189] <... read resumed> "Q", 4)  = 1
+[pid 53169] close(20)                   = 0
+[pid 53189] munmap(0x7f8c00e3e000, 32 <unfinished ...>
+[pid 53169] close(21)                   = 0
+[pid 53189] <... munmap resumed> )      = 0
+[pid 53169] unlink("mymap.txt" <unfinished ...>
+[pid 53189] unlink("/dev/shm/sem.semSHM" <unfinished ...>
+[pid 53169] <... unlink resumed> )      = 0
+[pid 53189] <... unlink resumed> )      = 0
+[pid 53169] exit_group(0)               = ?
+[pid 53189] unlink("/dev/shm/mapSHM" <unfinished ...>
+[pid 53169] +++ exited with 0 +++
+[pid 53189] <... unlink resumed> )      = 0
+[pid 53189] --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=0x7f8c00e3e008} ---
+[pid 53181] +++ killed by SIGSEGV (core dumped) +++
+[pid 53179] +++ killed by SIGSEGV (core dumped) +++
+[pid 53183] +++ killed by SIGSEGV (core dumped) +++
+[pid 53186] +++ killed by SIGSEGV (core dumped) +++
++++ killed by SIGSEGV (core dumped) +++
