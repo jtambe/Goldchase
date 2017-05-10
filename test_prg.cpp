@@ -598,7 +598,7 @@ void create_client_daemon(string ipaddr)
   open("/dev/null", O_RDWR); //fd 0
   open("/dev/null", O_RDWR); //fd 1
   //open("/dev/null", O_RDWR); //fd 2
-  int clfd=open("/home/binit/GoldChase-Socket/binitfifo", O_WRONLY);
+  int clfd=open("jayfifo", O_WRONLY);
   if(clfd==-1)
   {
     exit(99);
@@ -608,7 +608,7 @@ void create_client_daemon(string ipaddr)
 
   //now do whatever you want the daemon to do
   WRITE(2, "daemon creation finished\n", sizeof("daemon creation finished "));
-  const char* portno="62010";
+  const char* portno="25420";
   struct addrinfo hints;
   memset(&hints, 0, sizeof(hints)); //zero out everything in structure
   hints.ai_family = AF_UNSPEC; //don't care. Either IPv4 or IPv6
@@ -638,39 +638,16 @@ void create_client_daemon(string ipaddr)
   clientsidemap=new unsigned char[clientrows*clientcols];
   for(int i=0;i<clientrows*clientcols;i++)
   {
-    READ(clientfd,&square, sizeof(char));
+    READ(clientfd,&square, sizeof(unsigned char));
     clientsidemap[i]=square;
   }
   memcpy(local_map2, clientsidemap, clientrows*clientcols);
 
-  sem=sem_open("/mySem", O_CREAT,
+  sem=sem_open("/semSHM", O_CREAT,
                        S_IRUSR| S_IWUSR| S_IRGRP| S_IWGRP| S_IROTH| S_IWOTH,1);
   sem_wait(sem);
-  // for(int i=0;i<clientrows*clientcols;i++)
-  // {
-  //   if(local_map2[i]==G_WALL)
-  //   {
-  //     WRITE(2,"*",sizeof("*"));
-  //   }
-  //   if(local_map2[i]==G_FOOL)
-  //   {
-  //     WRITE(2,"F",sizeof("F"));
-  //   }
-  //   if(local_map2[i]==G_GOLD)
-  //   {
-  //     WRITE(2,"G",sizeof("G"));
-  //   }
-  //   if(local_map2[i]==G_PLR0)
-  //   {
-  //     WRITE(2,"1",sizeof("1"));
-  //   }
-  //   else
-  //   {
-  //     WRITE(2," ",sizeof(" "));
-  //   }
-  // }
   WRITE(2, "client demon creating shared memory\n", sizeof("client demon creating shared memory "));
-  int shm_fd2=shm_open("/TAG_mymap",O_CREAT|O_RDWR, S_IRUSR|S_IWUSR);
+  int shm_fd2=shm_open("/mapSHM",O_CREAT|O_RDWR, S_IRUSR|S_IWUSR);
   ftruncate(shm_fd2, (clientrows*clientcols)+sizeof(mapboard));
   map=(mapboard*)mmap(NULL, (clientrows*clientcols)+sizeof(mapboard), PROT_READ|PROT_WRITE,
     MAP_SHARED, shm_fd2, 0);
@@ -690,6 +667,11 @@ void create_client_daemon(string ipaddr)
   sigaction(SIGUSR1, &clientsig_struct, NULL);
 
   READ(clientfd, &clientPlayerSoc, sizeof(clientPlayerSoc));
+
+  if(clientPlayerSoc & G_PLR1)
+  {
+    cerr << "got second player on client" << endl;
+  }
 
   unsigned char playerbit[5]={G_PLR0, G_PLR1, G_PLR2, G_PLR3, G_PLR4};
   for(int i=0; i<5; i++)
@@ -1022,6 +1004,12 @@ int main(int argc, char *argv[])
   if(map->daemonID==0)
   {
     create_server_daemon();
+    wait(NULL);
+  }
+  else
+  {
+    kill(map->daemonID, SIGHUP);
+    kill(map->daemonID, SIGUSR1);
   }
 
 
@@ -1081,7 +1069,8 @@ int main(int argc, char *argv[])
         // cerr << "releasing \n";
         sem_close(sem);        
         sem_unlink("/semSHM");
-        shm_unlink("/mapSHM");              
+        shm_unlink("/mapSHM"); 
+        exit(0);             
       }
       delete globalMap;
       if(flag == false)
@@ -1215,7 +1204,8 @@ int main(int argc, char *argv[])
           {
             sem_close(sem);          
             sem_unlink("/semSHM");
-            shm_unlink("/mapSHM");            
+            shm_unlink("/mapSHM"); 
+            exit(0);           
 
           }
           delete globalMap;
@@ -1270,6 +1260,7 @@ int main(int argc, char *argv[])
             sem_unlink("/semSHM");
             shm_unlink("/mapSHM");
             // delete globalMap;
+            exit(0);
           }
           delete globalMap;
           if(flag == false)
